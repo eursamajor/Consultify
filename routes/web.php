@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ConsultationController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,6 +19,4 @@ Route::get('/', function () {
     return view('dashboard');
 });
 
-Route::get('/appointment', function () {
-    return view('bookingconsult');
-});
+Route::get('/appointment', [ConsultationController::class, 'showForm'])->name('consultation.form');
