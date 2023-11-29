@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booking Consultation</title>
 </head>
-<body>
+<!-- <body>
 
     <h1>Book a Consultation</h1>
 
@@ -31,4 +31,4 @@
     </form>
 
 </body>
-</html>
+</html> -->
