@@ -24,11 +24,12 @@
         <select name="service" required>
             <option value="service_1">Service 1</option>
             <option value="service_2">Service 2</option>
-            <!-- Add more options as needed -->
+            Add more options as needed
         </select>
 
         <button type="submit">Submit</button>
     </form>
 
 </body>
-</html> -->
+
+</html>
