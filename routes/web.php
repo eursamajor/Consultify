@@ -19,4 +19,4 @@ Route::get('/', function () {
     return view('dashboard');
 });
 
-Route::get('/appointment', [ConsultationController::class, 'showForm'])->name('consultation.form');
+Route::get('/appointment', [ConsultationController::class, 'showForm'])->name('bookingconsult');
