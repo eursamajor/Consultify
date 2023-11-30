@@ -31,7 +31,7 @@
 			<div class="row align-items-center">
 				<div class="col-lg-6">
 					<ul class="top-bar-info list-inline-item pl-0 mb-0">
-						<li class="list-inline-item"><a href="mailto:support@gmail.com"><i class="icofont-support-faq mr-2"></i>support@novena.com</a></li>
+						<li class="list-inline-item"><a href="mailto:support@gmail.com"><i class="icofont-support-faq mr-2"></i>support@consultify.com</a></li>
 						<li class="list-inline-item"><i class="icofont-location-pin mr-2"></i>Address Ta-134/A, New York, USA </li>
 					</ul>
 				</div>
@@ -229,7 +229,7 @@
 					<img src="images/team/1.jpg" alt="" class="img-fluid w-100">
 
 					<div class="content">
-						<h4 class="mt-4 mb-0"><a href="doctor-single.html">John Marshal</a></h4>
+						<h4 class="mt-4 mb-0"><a href="doctor-single.html">Bambang Suradi</a></h4>
 						<p>Internist, Emergency Physician</p>
 					</div>
 				</div>
@@ -240,7 +240,7 @@
 					<img src="images/team/2.jpg" alt="" class="img-fluid w-100">
 
 					<div class="content">
-						<h4 class="mt-4 mb-0"><a href="doctor-single.html">Marshal Root</a></h4>
+						<h4 class="mt-4 mb-0"><a href="doctor-single.html">W.R Soepratman</a></h4>
 						<p>Surgeon, Сardiologist</p>
 					</div>
 				</div>
@@ -251,7 +251,7 @@
 					<img src="images/team/3.jpg" alt="" class="img-fluid w-100">
 
 					<div class="content">
-						<h4 class="mt-4 mb-0"><a href="doctor-single.html">Siamon john</a></h4>
+						<h4 class="mt-4 mb-0"><a href="doctor-single.html">Mengskuy</a></h4>
 						<p>Internist, General Practitioner</p>
 					</div>
 				</div>
@@ -261,7 +261,7 @@
 					<img src="images/team/4.jpg" alt="" class="img-fluid w-100">
 
 					<div class="content">
-						<h4 class="mt-4 mb-0"><a href="doctor-single.html">Rishat Ahmed</a></h4>
+						<h4 class="mt-4 mb-0"><a href="doctor-single.html">Ayayayyay</a></h4>
 						<p>Orthopedic Surgeon</p>
 					</div>
 				</div>
@@ -418,7 +418,7 @@
 			<div class="row align-items-center justify-content-between">
 				<div class="col-lg-6">
 					<div class="copyright">
-						&copy; Copyright Reserved to <span class="text-color">Novena</span> by <a href="https://themefisher.com/" target="_blank">Themefisher</a>
+						&copy; Copyright Reserved to <span class="text-color">Consultify</span> by <a href="https://themefisher.com/" target="_blank">Themefisher</a>
 					</div>
 				</div>
 				<div class="col-lg-6">
