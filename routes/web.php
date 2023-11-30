@@ -16,7 +16,7 @@ use App\Http\Controllers\ConsultationController;
 
 
 Route::get('/', function () {
-    return view('dashboard');
+    return view('/homepage/dashboard');
 });
 
 Route::get('/appointment', function () {
