@@ -20,7 +20,11 @@ Route::get('/', function () {
 });
 
 Route::get('/about.php', function () {
-    return view('about');
+    return view('/homepage/about');
+});
+
+Route::get('/index.html', function () {
+    return view('/homepage/index');
 });
 
 Route::get('/appointment', function () {
