@@ -48,8 +48,8 @@
 	</div>
 	<nav class="navbar navbar-expand-lg navigation" id="navbar">
 		<div class="container">
-		 	 <a class="navbar-brand" href="index.html">
-			  	<img src="images/logo.png" alt="" class="img-fluid">
+		 	 <a class="navbar-brand" href="home.php">
+			  	<img src="images/consultify.png" alt="" class="img-fluid">
 			  </a>
 
 		  	<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarmain" aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,7 +59,7 @@
 		  <div class="collapse navbar-collapse" id="navbarmain">
 			<ul class="navbar-nav ml-auto">
 			  <li class="nav-item active">
-				<a class="nav-link" href="index.html">Home</a>
+				<a class="nav-link" href="home.php">Home</a>
 			  </li>
 			   <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
 			    <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
@@ -209,7 +209,7 @@
 			<div class="col-lg-4 mr-auto col-sm-6">
 				<div class="widget mb-5 mb-lg-0">
 					<div class="logo mb-4">
-						<img src="images/logo.png" alt="" class="img-fluid">
+						<img src="images/consultify.png" alt="" class="img-fluid">
 					</div>
 					<p>Tempora dolorem voluptatum nam vero assumenda voluptate, facilis ad eos obcaecati tenetur veritatis eveniet distinctio possimus.</p>
 
