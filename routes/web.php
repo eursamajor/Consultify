@@ -19,6 +19,10 @@ Route::get('/', function () {
     return view('/homepage/dashboard');
 });
 
+Route::get('/about.php', function () {
+    return view('about');
+});
+
 Route::get('/appointment', function () {
     return view('bookingconsult');
 });
