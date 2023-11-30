@@ -15,7 +15,7 @@
   <!-- Icon Font Css -->
   <link rel="stylesheet" href="{{ asset('assets/plugins/icofont/icofont.min.css') }}">
   <!-- Slick Slider  CSS -->
-  <link rel="stylesheet" href="{{ asset('assets/plugins/slick-carousel/slick/slick.css' }}">
+  <link rel="stylesheet" href="{{ asset('assets/plugins/slick-carousel/slick/slick.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/plugins/slick-carousel/slick/slick-theme.css') }}">
 
   <!-- Main Stylesheet -->
