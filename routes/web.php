@@ -27,6 +27,6 @@ Route::get('/home.php', function () {
     return view('/homepage/home');
 });
 
-Route::get('/appointment', function () {
+Route::get('/appointment.html', function () {
     return view('bookingconsult');
 });
