@@ -60,7 +60,7 @@
 			  <li class="nav-item active">
 				<a class="nav-link" href="index.html">Home</a>
 			  </li>
-			   <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+			   <li class="nav-item"><a class="nav-link" href="about.blade.php">About</a></li>
 			    <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
 
 			    <li class="nav-item dropdown">
