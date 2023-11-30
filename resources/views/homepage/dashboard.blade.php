@@ -209,7 +209,7 @@
 			<div class="col-lg-4 mr-auto col-sm-6">
 				<div class="widget mb-5 mb-lg-0">
 					<div class="logo mb-4">
-						<img src="assets/images/consultify.png" alt="" class="img-fluid w-50">
+						<img src="assets/images/consultify.png" alt="" class="img-fluid w-20">
 					</div>
 					<p>Tempora dolorem voluptatum nam vero assumenda voluptate, facilis ad eos obcaecati tenetur veritatis eveniet distinctio possimus.</p>
 
