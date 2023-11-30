@@ -28,5 +28,5 @@ Route::get('/home.php', function () {
 });
 
 Route::get('/appointment.html', function () {
-    return view('bookingconsult');
+    return view('/consultation/bookingconsult');
 });
