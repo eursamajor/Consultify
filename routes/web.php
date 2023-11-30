@@ -23,8 +23,8 @@ Route::get('/about.php', function () {
     return view('/homepage/about');
 });
 
-Route::get('/index.html', function () {
-    return view('/homepage/index');
+Route::get('/home.php', function () {
+    return view('/homepage/home');
 });
 
 Route::get('/appointment', function () {
