@@ -49,8 +49,8 @@
 	<nav class="navbar navbar-expand-lg navigation" id="navbar">
 		<div class="container">
 		 	 <a class="navbar-brand" href="home.php">
-			  	<img src="assets/images/consultify.png" alt="" class="img-fluid w-50 h-30">
-			  </a>
+			  <img src="assets/images/consultify.png" alt="" class="img-fluid" style="width: 200px; height: auto;">
+			</a>
 
 		  	<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarmain" aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="icofont-navigation-menu"></span>
