@@ -193,4 +193,18 @@
         }
     });
 
+	function performSearch() {
+		const searchInput = document.getElementById('searchInput');
+		const searchTerm = searchInput.value.trim();
+	
+		// Add your search logic here
+		if (searchTerm !== '') {
+			alert(`Performing search for: ${searchTerm}`);
+			// You can replace the alert with your actual search functionality
+		} else {
+			alert('Please enter a search term.');
+		}
+	}
+	
+
 })(jQuery);
