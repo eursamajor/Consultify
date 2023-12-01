@@ -16,7 +16,7 @@ use App\Http\Controllers\ConsultationController;
 
 
 Route::get('/', function () {
-    return view('/homepage/dashboard');
+    return view('/homepage/home');
 });
 
 Route::get('/about.php', function () {
@@ -27,6 +27,6 @@ Route::get('/home.php', function () {
     return view('/homepage/home');
 });
 
-Route::get('/appointment.html', function () {
+Route::get('/bookingconsult.php', function () {
     return view('/consultation/bookingconsult');
 });

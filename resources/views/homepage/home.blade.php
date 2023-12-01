@@ -5,7 +5,7 @@
   <meta name="description" content="Orbitor,business,company,agency,modern,bootstrap4,tech,software">
   <meta name="author" content="themefisher.com">
 
-  <title>Consultify - Health & Care Medical template</title>
+  <title>Consultify - Find your happiness here</title>
 
   <!-- Favicon -->
   <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
@@ -31,16 +31,17 @@
 			<div class="row align-items-center">
 				<div class="col-lg-6">
 					<ul class="top-bar-info list-inline-item pl-0 mb-0">
-						<li class="list-inline-item"><a href="mailto:support@gmail.com"><i class="icofont-support-faq mr-2"></i>support@novena.com</a></li>
-						<li class="list-inline-item"><i class="icofont-location-pin mr-2"></i>Address Ta-134/A, New York, USA </li>
+						<li class="list-inline-item"><a href="mailto:support@gmail.com"><i class="icofont-support-faq mr-2"></i>support@consultify.com</a></li>
+						<li class="list-inline-item"><i class="icofont-location-pin mr-2"></i>Bojongsoang, Bandung </li>
 					</ul>
 				</div>
 				<div class="col-lg-6">
 					<div class="text-lg-right top-right-bar mt-2 mt-lg-0">
-						<a href="tel:+23-345-67890" >
+						<span>Tempat Search</span>
+						<!-- <a href="tel:+23-345-67890" >
 							<span>Call Now : </span>
 							<span class="h4">823-4565-13456</span>
-						</a>
+						</a> -->
 					</div>
 				</div>
 			</div>
@@ -49,7 +50,7 @@
 	<nav class="navbar navbar-expand-lg navigation" id="navbar">
 		<div class="container">
 		 	 <a class="navbar-brand" href="index.html">
-			  	<img src="images/logo.png" alt="" class="img-fluid">
+			  	<img src="images/consultify.png" alt="" class="img-fluid">
 			  </a>
 
 		  	<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarmain" aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,27 +62,26 @@
 			  <li class="nav-item active">
 				<a class="nav-link" href="index.html">Home</a>
 			  </li>
-			   <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-			    <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
+			   <!-- <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+			    <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li> -->
 
-			    <li class="nav-item dropdown">
+			    <!-- <li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="department.html" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Department <i class="icofont-thin-down"></i></a>
 					<ul class="dropdown-menu" aria-labelledby="dropdown02">
 						<li><a class="dropdown-item" href="department.html">Departments</a></li>
 						<li><a class="dropdown-item" href="department-single.html">Department Single</a></li>
 					</ul>
-			  	</li>
+			  	</li> -->
 
 			  	<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="doctor.html" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Doctors <i class="icofont-thin-down"></i></a>
+					<a class="nav-link dropdown-toggle" href="doctor.html" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conselour <i class="icofont-thin-down"></i></a>
 					<ul class="dropdown-menu" aria-labelledby="dropdown03">
-						<li><a class="dropdown-item" href="doctor.html">Doctors</a></li>
-						<li><a class="dropdown-item" href="doctor-single.html">Doctor Single</a></li>
-						<li><a class="dropdown-item" href="appoinment.html">Appoinment</a></li>
+						<li><a class="dropdown-item" href="conselour.php">Conselour</a></li>
+						<li><a class="dropdown-item" href="bookingconsult.php">Booking Consult</a></li>
 					</ul>
 			  	</li>
 
-			   <li class="nav-item dropdown">
+			   <!-- <li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="blog-sidebar.html" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog <i class="icofont-thin-down"></i></a>
 					<ul class="dropdown-menu" aria-labelledby="dropdown05">
 						<li><a class="dropdown-item" href="blog-sidebar.html">Blog with Sidebar</a></li>
@@ -89,7 +89,7 @@
 						<li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
 					</ul>
 			  	</li>
-			   <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+			   <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li> -->
 			</ul>
 		  </div>
 		</div>
@@ -111,7 +111,7 @@
 					
 					<p class="mb-4 pr-5">A repudiandae ipsam labore ipsa voluptatum quidem quae laudantium quisquam aperiam maiores sunt fugit, deserunt rem suscipit placeat.</p>
 					<div class="btn-container ">
-						<a href="appoinment.html" target="_blank" class="btn btn-main-2 btn-icon btn-round-full">Make appoinment <i class="icofont-simple-right ml-2  "></i></a>
+						<a href="bookingconsult.php" target="_blank" class="btn btn-main-2 btn-icon btn-round-full">Booking Consult <i class="icofont-simple-right ml-2  "></i></a>
 					</div>
 				</div>
 			</div>
@@ -130,7 +130,7 @@
 						<span>24 Hours Service</span>
 						<h4 class="mb-3">Online Appoinment</h4>
 						<p class="mb-4">Get ALl time support for emergency.We have introduced the principle of family medicine.</p>
-						<a href="appoinment.html" class="btn btn-main btn-round-full">Make a appoinment</a>
+						<a href="bookingconsult.php" class="btn btn-main btn-round-full">Make a appoinment</a>
 					</div>
 				
 					<div class="feature-item mb-5 mb-lg-0">
@@ -150,7 +150,7 @@
 						<div class="feature-icon mb-4">
 							<i class="icofont-support"></i>
 						</div>
-						<span>Emegency Cases</span>
+						<span>Emergency Cases</span>
 						<h4 class="mb-3">1-800-700-6200</h4>
 						<p>Get ALl time support for emergency.We have introduced the principle of family medicine.Get Conneted with us for any urgency .</p>
 					</div>
@@ -565,7 +565,7 @@
 			<div class="col-lg-4 mr-auto col-sm-6">
 				<div class="widget mb-5 mb-lg-0">
 					<div class="logo mb-4">
-						<img src="images/logo.png" alt="" class="img-fluid">
+						<img src="images/consultify.png" alt="" class="img-fluid">
 					</div>
 					<p>Tempora dolorem voluptatum nam vero assumenda voluptate, facilis ad eos obcaecati tenetur veritatis eveniet distinctio possimus.</p>
 
@@ -635,7 +635,7 @@
 			<div class="row align-items-center justify-content-between">
 				<div class="col-lg-6">
 					<div class="copyright">
-						&copy; Copyright Reserved to <span class="text-color">Novena</span> by <a href="https://themefisher.com/" target="_blank">Themefisher</a>
+						&copy; Copyright Reserved to <span class="text-color">consultify</span>
 					</div>
 				</div>
 				<div class="col-lg-6">
