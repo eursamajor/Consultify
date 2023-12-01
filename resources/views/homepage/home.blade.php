@@ -106,9 +106,9 @@
 				<div class="block">
 					<div class="divider mb-3"></div>
 					<span class="text-uppercase text-sm letter-spacing ">Berkonsultasi</span>
-					<h1 class="mb-3 mt-3">Your most trusted consult place</h1>
+					<h1 class="mb-3 mt-3">Konsultasi aman dan terpercaya</h1>
 					
-					<p class="mb-4 pr-5">BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR</p>
+					<p class="mb-4 pr-5">Tempat konsultasi terbaik untuk kamu</p>
 					<div class="btn-container ">
 						<a href="bookingconsult.php" target="_blank" class="btn btn-main-2 btn-icon btn-round-full">Booking Consult <i class="icofont-simple-right ml-2  "></i></a>
 					</div>
@@ -149,7 +149,7 @@
 						<div class="feature-icon mb-4">
 							<i class="icofont-support"></i>
 						</div>
-						<span>Emergency Cases</span>
+						<span>Pembayaran</span>
 						<h4 class="mb-3">021-xxx-xxx</h4>
 						<p>Looooooooooooremmmmmmm</p>
 					</div>
