@@ -66,7 +66,7 @@
 					<a class="nav-link dropdown-toggle" href="doctor.html" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conselour <i class="icofont-thin-down"></i></a>
 					<ul class="dropdown-menu" aria-labelledby="dropdown03">
 						<li><a class="dropdown-item" href="conselour.html">Conselour</a></li>
-						<li><a class="dropdown-item" href="appoinment.html">Booking now</a></li>
+						<li><a class="dropdown-item" href="appoinment.html">Booking sekarang aja</a></li>
 					</ul>
 			  	</li>
 
