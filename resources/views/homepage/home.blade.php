@@ -128,7 +128,7 @@
 						</div>
 						<span>24 Hours Service</span>
 						<h4 class="mb-3">Online Appoinment</h4>
-						<p class="mb-4">bismillah</p>
+						<p class="mb-4">test</p>
 						<a href="bookingconsult.php" class="btn btn-main btn-round-full">Make a appoinment</a>
 					</div>
 				
