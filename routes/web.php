@@ -30,3 +30,7 @@ Route::get('/home.php', function () {
 Route::get('/bookingconsult.php', function () {
     return view('/consultation/bookingconsult');
 });
+
+Route::get('/pembayaran.php', function () {
+    return view('/consultation/pembayaran');
+});
