@@ -149,7 +149,7 @@
 						<div class="feature-icon mb-4">
 							<i class="icofont-support"></i>
 						</div>
-						<span>Pembayarann</span>
+						<span>Pembayarannn</span>
 						<h4 class="mb-3">021-xxx-xxx</h4>
 						<p>Looooooooooooremmmmmmm</p>
 					</div>
