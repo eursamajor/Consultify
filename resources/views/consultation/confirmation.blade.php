@@ -1,5 +1,3 @@
-<!-- resources/views/consultation/bookingconsult.blade.php -->
-
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
@@ -24,7 +22,6 @@
   <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
 </head>
-
 
 <body id="top">
 
@@ -101,103 +98,20 @@
 	
 
 
-<section class="page-title bg-1">
-  <div class="overlay"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="block text-center">
-          <span class="text-white">Lakukan pemesanan</span>
-          <h1 class="text-capitalize mb-5 text-lg">Janji temu</h1>
 
-          <!-- <ul class="list-inline breadcumb-nav">
-            <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
-            <li class="list-inline-item"><span class="text-white">/</span></li>
-            <li class="list-inline-item"><a href="#" class="text-white-50">Book your Seat</a></li>
-          </ul> -->
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="appoinment section">
+<section class="section confirmation">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-4">
-          <div class="mt-3">
-            <div class="feature-icon mb-3">
-              <i class="icofont-support text-lg"></i>
-            </div>
-             <span class="h3">Call for an Emergency Service!</span>
-              <h2 class="text-color mt-3">+84 789 1256 </h2>
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+          <div class="confirmation-content text-center">
+            <i class="icofont-check-circled text-lg text-color-2"></i>
+              <h2 class="mt-3 mb-4">Thank you for your appoinment</h2>
+              <p>We will contact with you soon.</p>
           </div>
       </div>
-
-      <div class="col-lg-8">
-           <div class="appoinment-wrap mt-5 mt-lg-0 pl-lg-5">
-            <h2 class="mb-2 title-color">Pemesanan janji temu</h2>
-            <p class="mb-4">Atur jadwal dengan konselor, pastikan agar datang 30 menit sebelum waktu yang dijadwalkan</p>
-               <form id="#" class="appoinment-form" method="post" action="#">
-                    <div class="row">
-                         <div class="col-lg-6">
-                            <div class="form-group">
-                                <select class="form-control" id="exampleFormControlSelect1">
-                                  <option>Jenis Konsultasi</option>
-                                  <option>Karir Pekerjaan</option>
-                                  <option>Kesehatan Mental</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="form-group">
-                                <select class="form-control" id="exampleFormControlSelect2">
-                                  <option>Pilih Konselor</option>
-                                  <option>Hermawan</option>
-                                  <option>Raditha</option>
-                                  <option>Rexcel</option>
-                                  <option>Dwiko</option>
-                                  <option>Miracle</option>
-                                </select>
-                            </div>
-                        </div>
-
-                         <div class="col-lg-6">
-                            <div class="form-group">
-                                <input name="date" id="date" type="text" class="form-control" placeholder="dd/mm/yyyy">
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6">
-                            <div class="form-group">
-                                <input name="time" id="time" type="text" class="form-control" placeholder="Time">
-                            </div>
-                        </div>
-                         <div class="col-lg-6">
-                            <div class="form-group">
-                                <input name="name" id="name" type="text" class="form-control" placeholder="Full Name">
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6">
-                            <div class="form-group">
-                                <input name="phone" id="phone" type="Number" class="form-control" placeholder="Phone Number">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-group-2 mb-4">
-                        <textarea name="message" id="message" class="form-control" rows="6" placeholder="Your Message"></textarea>
-                    </div>
-
-                    <a class="btn btn-main btn-round-full" href="pembayaran.php">Lakukan Pemesanan<i class="icofont-simple-right ml-2"></i></a>
-                </form>
-            </div>
-        </div>
-      </div>
     </div>
   </div>
 </section>
-
 
 <!-- footer Start -->
 <footer class="footer section gray-bg">
@@ -296,11 +210,6 @@
 					</a>
 				</div>
 			</div>
-		</div>
-	</div>
-	<div class="col-lg-12">
-		<div class="copyright text-lg-center">
-	  Distributed by <a href="https://themewagon.com/" target="_blank">Themewagon</a>
 		</div>
 	</div>
 </footer>
