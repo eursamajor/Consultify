@@ -16,7 +16,7 @@ use App\Http\Controllers\ConsultationController;
 
 
 Route::get('/', function () {
-    return view('/homepage/home');
+    return view('/homepage/about');
 });
 
 Route::get('/about.php', function () {
@@ -34,3 +34,8 @@ Route::get('/bookingconsult.php', function () {
 Route::get('/pembayaran.php', function () {
     return view('/consultation/pembayaran');
 });
+
+Route::get('/artikel.php', function () {
+    return view('/header/artikel');
+});
+
