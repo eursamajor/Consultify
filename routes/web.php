@@ -28,14 +28,21 @@ Route::get('/home.php', function () {
 });
 
 Route::get('/bookingconsult.php', function () {
-    return view('/consultation/bookingconsult');
+    return view('/booking/bookingconsult');
 });
 
 Route::get('/pembayaran.php', function () {
-    return view('/consultation/pembayaran');
+    return view('/booking/pembayaran');
 });
+
+Route::get('/confirmation.php', function () {
+    return view('/booking/confirmation');
+});
+
 
 Route::get('/artikel.php', function () {
     return view('/header/artikel');
 });
+
+
 

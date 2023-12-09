@@ -61,36 +61,8 @@
 			  <li class="nav-item active">
 				<a class="nav-link" href="about.php">Home</a>
 			  </li>
-			   <!-- <li class="nav-item"><a class="nav-link" href="about.html">About</a></li> -->
-			    <li class="nav-item"><a class="nav-link" href="artikel.php">Artikel</a></li>
-
-			    <!-- <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="department.html" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Department <i class="icofont-thin-down"></i></a>
-					<ul class="dropdown-menu" aria-labelledby="dropdown02">
-						<li><a class="dropdown-item" href="department.html">Departments</a></li>
-						<li><a class="dropdown-item" href="department-single.html">Department Single</a></li>
-					</ul>
-			  	</li> -->
-
-			  	<!-- <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="doctor.html" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Konselor <i class="icofont-thin-down"></i></a>
-					<ul class="dropdown-menu" aria-labelledby="dropdown03">
-						<li><a class="dropdown-item" href="doctor.html">Konselor</a></li>
-						<li><a class="dropdown-item" href="doctor-single.html">Doctor Single</a></li>
-						<li><a class="dropdown-item" href="bookingconsult.php">Booking Konsultasi</a></li>
-					</ul>
-			  	</li> -->
+				<li class="nav-item"><a class="nav-link" href="artikel.php">Artikel</a></li>
 				<li class="nav-item"><a class="nav-link" href="konselor.php">Konselor</a></li>
-				<!-- <li class="nav-item"><a class="nav-link" href="artikel.php">Booking Konsultasi</a></li> -->
-
-			   <!-- <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="blog-sidebar.html" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog <i class="icofont-thin-down"></i></a>
-					<ul class="dropdown-menu" aria-labelledby="dropdown05">
-						<li><a class="dropdown-item" href="blog-sidebar.html">Blog with Sidebar</a></li>
-
-						<li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
-					</ul>
-			  	</li> -->
 			   <li class="nav-item"><a class="nav-link" href="riwayat.php">Riwayat</a></li>
 			   <li class="nav-item"><a class="nav-link" href="login.php">Login</a></li>
 			</ul>
@@ -114,7 +86,7 @@
 					
 					<p class="mb-4 pr-5">A repudiandae ipsam labore ipsa voluptatum quidem quae laudantium quisquam aperiam maiores sunt fugit, deserunt rem suscipit placeat.</p>
 					<div class="btn-container ">
-						<a href="appoinment.html" target="_blank" class="btn btn-main-2 btn-icon btn-round-full">Make appoinment <i class="icofont-simple-right ml-2  "></i></a>
+						<a href="bookingconsult.php" target="_blank" class="btn btn-main-2 btn-icon btn-round-full">Make appoinment <i class="icofont-simple-right ml-2  "></i></a>
 					</div>
 				</div>
 			</div>
@@ -133,7 +105,7 @@
 						<span>24 Hours Service</span>
 						<h4 class="mb-3">Online Appoinment</h4>
 						<p class="mb-4">Get ALl time support for emergency.We have introduced the principle of family medicine.</p>
-						<a href="appoinment.html" class="btn btn-main btn-round-full">Make a appoinment</a>
+						<a href="bookingconsult.php" class="btn btn-main btn-round-full">Make a appoinment</a>
 					</div>
 				
 					<div class="feature-item mb-5 mb-lg-0">
