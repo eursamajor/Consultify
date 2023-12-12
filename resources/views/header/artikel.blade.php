@@ -105,7 +105,7 @@
       <div class="col-md-12">
         <div class="block text-center">
           <span class="text-white">Our services</span>
-          <h1 class="text-capitalize mb-5 text-lg">What We Do</h1>
+          <h1 class="text-capitalize mb-5 text-lg">Artikel</h1>
 
           <!-- <ul class="list-inline breadcumb-nav">
             <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
