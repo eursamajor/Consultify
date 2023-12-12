@@ -48,7 +48,7 @@
 	</div>
 	<nav class="navbar navbar-expand-lg navigation" id="navbar">
 		<div class="container">
-		<a class="navbar-brand" href="about.php">Consultify<span>.</span></a>
+			<a class="navbar-brand" href="about.php">Consultify<span>.</span></a>
 
 		  	<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarmain" aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="icofont-navigation-menu"></span>
