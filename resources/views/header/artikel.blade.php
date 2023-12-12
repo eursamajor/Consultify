@@ -32,14 +32,14 @@
 				<div class="col-lg-6">
 					<ul class="top-bar-info list-inline-item pl-0 mb-0">
 						<li class="list-inline-item"><a href="mailto:support@gmail.com"><i class="icofont-support-faq mr-2"></i>support@consultify.com</a></li>
-						<li class="list-inline-item"><i class="icofont-location-pin mr-2"></i>Address Ta-134/A, New York, USA </li>
+						<li class="list-inline-item"><i class="icofont-location-pin mr-2"></i>Bandung, Indonesia</li>
 					</ul>
 				</div>
 				<div class="col-lg-6">
 					<div class="text-lg-right top-right-bar mt-2 mt-lg-0">
 						<a href="tel:+23-345-67890" >
 							<span>Call Now : </span>
-							<span class="h4">823-4565-13456</span>
+							<span class="h4">0823-2916-3009</span>
 						</a>
 					</div>
 				</div>
@@ -191,7 +191,7 @@
 			<div class="col-lg-7">
 				<div class="cta-content">
 					<div class="divider mb-4"></div>
-					<h2 class="mb-5 text-lg">Konsultasi bimbingan kesehatan mental dan pekerjaan<span class="title-color">Peduli terhadap kesehatan mental anda pekerjaan anda</span></h2>
+					<h2 class="mb-5 text-lg">Konsultasikan karir pekerjaan<span class="title-color"> dan Kesehatan Mental</span></h2>
 					<a href="appoinment.html" class="btn btn-main-2 btn-round-full">Get appoinment<i class="icofont-simple-right  ml-2"></i></a>
 				</div>
 			</div>
@@ -242,7 +242,7 @@
 							<i class="icofont-email mr-3"></i>
 							<span class="h6 mb-0">Support Available for 24/7</span>
 						</div>
-						<h4 class="mt-2"><a href="tel:+23-345-67890">Support@email.com</a></h4>
+						<h4 class="mt-2"><a href="tel:+0813-8889-4512">hermawanalghozy@gmail.com</a></h4>
 					</div>
 
 					<div class="footer-contact-block">
