@@ -16,7 +16,7 @@ use App\Http\Controllers\ConsultationController;
 
 
 Route::get('/', function () {
-    return view('/homepage/about');
+    return view('/index');
 });
 
 Route::get('/about.php', function () {
