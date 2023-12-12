@@ -61,8 +61,8 @@
 			  <li class="nav-item active">
 				<a class="nav-link" href="home.php">Home</a>
 			  </li>
-			   <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-			    <li class="nav-item"><a class="nav-link" href="service.html">Artikel</a></li> -->
+			   <!-- <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+			    <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li> -->
 
 			    <!-- <li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="department.html" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Department <i class="icofont-thin-down"></i></a>
@@ -70,7 +70,7 @@
 						<li><a class="dropdown-item" href="department.html">Departments</a></li>
 						<li><a class="dropdown-item" href="department-single.html">Department Single</a></li>
 					</ul>
-			  	</li>
+			  	</li> -->
 
 			  	<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="doctor.html" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conselour <i class="icofont-thin-down"></i></a>
@@ -126,18 +126,18 @@
 						<div class="feature-icon mb-4">
 							<i class="icofont-surgeon-alt"></i>
 						</div>
-						<span>Cari</span>
-						<h4 class="mb-3">Artikel</h4>
-						<p class="mb-4"></p>
-						<a href="bookingconsult.php" class="btn btn-main btn-round-full">Kunjungi</a>
+						<span>24 Hours Service</span>
+						<h4 class="mb-3">Online Appoinment</h4>
+						<p class="mb-4">bismillah</p>
+						<a href="bookingconsult.php" class="btn btn-main btn-round-full">Make a appoinment</a>
 					</div>
 				
 					<div class="feature-item mb-5 mb-lg-0">
 						<div class="feature-icon mb-4">
 							<i class="icofont-ui-clock"></i>
 						</div>
-						<span>Riwayat</span>
-						<h4 class="mb-3">Pembayaran</h4>
+						<span>Timing schedule</span>
+						<h4 class="mb-3">Working Hours</h4>
 						<ul class="w-hours list-unstyled">
 		                    <li class="d-flex justify-content-between">Sun - Wed : <span>8:00 - 17:00</span></li>
 		                    <li class="d-flex justify-content-between">Thu - Fri : <span>9:00 - 17:00</span></li>
@@ -149,9 +149,9 @@
 						<div class="feature-icon mb-4">
 							<i class="icofont-support"></i>
 						</div>
-						<span>Pembayaran</span>
-						<h4 class="mb-3">bisa lewat berikut :</h4>
-						<p>Dana, Gopay, ATM</p>
+						<span>Pembayarannn</span>
+						<h4 class="mb-3">021-xxx-xxx</h4>
+						<p>Looooooooooooremmmmmmm</p>
 					</div>
 				</div>
 			</div>
@@ -176,7 +176,7 @@
 			</div>
 			<div class="col-lg-4">
 				<div class="about-content pl-4 mt-4 mt-lg-0">
-					<h2 class="title-color">Konsultasi <br>& healthy living</h2>
+					<h2 class="title-color">Personal care <br>& healthy living</h2>
 					<p class="mt-4 mb-5">We provide best leading medicle service Nulla perferendis veniam deleniti ipsum officia dolores repellat laudantium obcaecati neque.</p>
 
 					<a href="service.html" class="btn btn-main-2 btn-round-full btn-icon">Services<i class="icofont-simple-right ml-3"></i></a>
