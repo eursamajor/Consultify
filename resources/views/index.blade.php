@@ -82,7 +82,7 @@
 					<span class="text-uppercase text-sm letter-spacing ">Selamat datang di</span>
 					<h1 class="mb-3 mt-3">Consultify</h1>
 					
-					<p class="mb-4 pr-5">Consultify adalah aplikasi inovatif yang dirancang khusus untuk memberikan bimbingan konseling online yang holistik mengenai kesehatan mental dan pengembangan karir. Aplikasi ini menggabungkan keahlian profesional di bidang konseling dengan teknologi canggih untuk memberikan pengguna pengalaman pribadi yang mendalam dan relevan.</p>
+					<p class="mb-4 pr-5">Consultify adalah web inovatif yang dirancang khusus untuk memberikan bimbingan konseling online yang holistik mengenai kesehatan mental dan pengembangan karir. Aplikasi ini menggabungkan keahlian profesional di bidang konseling dengan teknologi canggih untuk memberikan pengguna pengalaman pribadi yang mendalam dan relevan.</p>
 					<div class="btn-container ">
 						<a href="bookingconsult.php" target="_blank" class="btn btn-main-2 btn-icon btn-round-full">Lakukan Pemesanan <i class="icofont-simple-right ml-2  "></i></a>
 					</div>
