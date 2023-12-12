@@ -84,7 +84,7 @@
 					<span class="text-uppercase text-sm letter-spacing ">Total Health care solution</span>
 					<h1 class="mb-3 mt-3">Your most trusted health partner</h1>
 					
-					<p class="mb-4 pr-5">A repudiandae ipsam labore ipsa voluptatum quidem quae laudantium quisquam aperiam maiores sunt fugit, deserunt rem suscipit placeat.</p>
+					<p class="mb-4 pr-5">A re lorem ipsum labore ipsa voluptatum quidem quae laudantium quisquam aperiam maiores sunt fugit, deserunt rem suscipit placeat.</p>
 					<div class="btn-container ">
 						<a href="bookingconsult.php" target="_blank" class="btn btn-main-2 btn-icon btn-round-full">Make appoinment <i class="icofont-simple-right ml-2  "></i></a>
 					</div>
