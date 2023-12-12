@@ -84,9 +84,9 @@
 					<span class="text-uppercase text-sm letter-spacing ">Selamat datang di</span>
 					<h1 class="mb-3 mt-3">Consultify</h1>
 					
-					<p class="mb-4 pr-5">A re lorem ipsum labore ipsa voluptatum quidem quae laudantium quisquam aperiam maiores sunt fugit, deserunt rem suscipit placeat.</p>
+					<p class="mb-4 pr-5">Consultify adalah aplikasi inovatif yang dirancang khusus untuk memberikan bimbingan konseling online yang holistik mengenai kesehatan mental dan pengembangan karir. Aplikasi ini menggabungkan keahlian profesional di bidang konseling dengan teknologi canggih untuk memberikan pengguna pengalaman pribadi yang mendalam dan relevan.</p>
 					<div class="btn-container ">
-						<a href="bookingconsult.php" target="_blank" class="btn btn-main-2 btn-icon btn-round-full">Make appoinment <i class="icofont-simple-right ml-2  "></i></a>
+						<a href="bookingconsult.php" target="_blank" class="btn btn-main-2 btn-icon btn-round-full">Lakukan Pemesanan <i class="icofont-simple-right ml-2  "></i></a>
 					</div>
 				</div>
 			</div>
@@ -102,18 +102,18 @@
 						<div class="feature-icon mb-4">
 							<i class="icofont-surgeon-alt"></i>
 						</div>
-						<span>24 Hours Service</span>
-						<h4 class="mb-3">Online Appoinment</h4>
-						<p class="mb-4">Get ALl time support for emergency.We have introduced the principle of family medicine.</p>
-						<a href="bookingconsult.php" class="btn btn-main btn-round-full">Make a appoinment</a>
+						<span>24 Jam Servis</span>
+						<h4 class="mb-3">Pemesanan Online</h4>
+						<p class="mb-4">Aplikasi selalu siap sedia 24 Jam</p>
+						<a href="bookingconsult.php" class="btn btn-main btn-round-full">Lakukan Pemesanan</a>
 					</div>
 				
 					<div class="feature-item mb-5 mb-lg-0">
 						<div class="feature-icon mb-4">
 							<i class="icofont-ui-clock"></i>
 						</div>
-						<span>Timing schedule</span>
-						<h4 class="mb-3">Working Hours</h4>
+						<span>Jadwal Konsultasi</span>
+						<h4 class="mb-3">Jam Kerja</h4>
 						<ul class="w-hours list-unstyled">
 		                    <li class="d-flex justify-content-between">Sun - Wed : <span>8:00 - 17:00</span></li>
 		                    <li class="d-flex justify-content-between">Thu - Fri : <span>9:00 - 17:00</span></li>
@@ -125,9 +125,9 @@
 						<div class="feature-icon mb-4">
 							<i class="icofont-support"></i>
 						</div>
-						<span>Emegency Cases</span>
+						<span>Bantuan Darurat</span>
 						<h4 class="mb-3">1-800-700-6200</h4>
-						<p>Get ALl time support for emergency.We have introduced the principle of family medicine.Get Conneted with us for any urgency .</p>
+						<p>Bisa hubungi nomor di atas untuk keadaan darurat</p>
 					</div>
 				</div>
 			</div>
@@ -152,10 +152,10 @@
 			</div>
 			<div class="col-lg-4">
 				<div class="about-content pl-4 mt-4 mt-lg-0">
-					<h2 class="title-color">Personal care <br>& healthy living</h2>
-					<p class="mt-4 mb-5">We provide best leading medicle service Nulla perferendis veniam deleniti ipsum officia dolores repellat laudantium obcaecati neque.</p>
+					<h2 class="title-color">Mental yang sehat, Karir yang baik</h2>
+					<p class="mt-4 mb-5">Kami selalu meberikan pelayanan terbaik untuk mental yang sehat dan karir yang baik.</p>
 
-					<a href="service.html" class="btn btn-main-2 btn-round-full btn-icon">Services<i class="icofont-simple-right ml-3"></i></a>
+					<a href="service.html" class="btn btn-main-2 btn-round-full btn-icon">Coba Sekarang<i class="icofont-simple-right ml-3"></i></a>
 				</div>
 			</div>
 		</div>
