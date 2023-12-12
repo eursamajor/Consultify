@@ -465,7 +465,7 @@ a:focus {
   position: relative;
   overflow: hidden;
   background: #fff;
-  background: url("../images/bg/slider-bg-1.jpg") no-repeat;
+  background: url("../images/bg/hehe.png") no-repeat;
   background-size: cover;
   min-height: 550px;
 }
@@ -803,6 +803,7 @@ a:focus {
 @media (max-width: 400px) {
   .doctors .btn-group {
     display: block;
+\]
   }
   .doctors .btn-group .btn {
     margin: 8px 3px;
@@ -852,7 +853,7 @@ a:focus {
 }
 
 .cta-page {
-  background: url("../images/bg/banner.jpg") no-repeat;
+  background: url("../images/bg/banner1.png") no-repeat;
   background-size: cover;
   position: relative;
 }
