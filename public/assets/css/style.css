@@ -393,8 +393,10 @@ a:focus {
 }
 
 .navbar-brand {
-  margin-top: 10px;
-}
+  font-size: 32px;
+  font-weight: 600; }
+  .navbar-brand > span {
+    opacity: .4; }
 
 .dropdown .dropdown-menu {
   position: absolute;
