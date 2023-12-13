@@ -32,15 +32,15 @@
 				<div class="col-lg-6">
 					<ul class="top-bar-info list-inline-item pl-0 mb-0">
 						<li class="list-inline-item"><a href="mailto:support@gmail.com"><i class="icofont-support-faq mr-2"></i>support@consultify.com</a></li>
-						<li class="list-inline-item"><i class="icofont-location-pin mr-2"></i>Bojongsoang, Bandung </li>
+						<li class="list-inline-item"><i class="icofont-location-pin mr-2"></i>Bandung, Indonesia </li>
 					</ul>
 				</div>
 				<div class="col-lg-6">
-					<div class="search-form text-lg-right mt-5 mt-lg-0">
-						<form action="#" class="search">
-							<input type="text" id="searchInput" class="form-control" placeholder="Search">
-            				<button type="button" class="btn btn-main-2 btn-round-full" onclick="performSearch()">Search</button>
-						</form>
+					<div class="text-lg-right top-right-bar mt-2 mt-lg-0">
+						<a href="tel:+021-xxx-xxx" >
+							<span>Call Now : </span>
+							<span class="h4">021-xxx-xxx</span>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -59,34 +59,10 @@
 			  <li class="nav-item active">
 				<a class="nav-link" href="home.php">Home</a>
 			  </li>
-			   <!-- <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-			    <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li> -->
-
-			    <!-- <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="department.html" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Department <i class="icofont-thin-down"></i></a>
-					<ul class="dropdown-menu" aria-labelledby="dropdown02">
-						<li><a class="dropdown-item" href="department.html">Departments</a></li>
-						<li><a class="dropdown-item" href="department-single.html">Department Single</a></li>
-					</ul>
-			  	</li> -->
-
-			  	<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="doctor.html" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conselour <i class="icofont-thin-down"></i></a>
-					<ul class="dropdown-menu" aria-labelledby="dropdown03">
-						<li><a class="dropdown-item" href="conselour.php">Conselour</a></li>
-						<li><a class="dropdown-item" href="bookingconsult.php">Booking Consult</a></li>
-					</ul>
-			  	</li>
-
-			   <!-- <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="blog-sidebar.html" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog <i class="icofont-thin-down"></i></a>
-					<ul class="dropdown-menu" aria-labelledby="dropdown05">
-						<li><a class="dropdown-item" href="blog-sidebar.html">Blog with Sidebar</a></li>
-
-						<li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
-					</ul>
-			  	</li>
-			   <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li> -->
+				<li class="nav-item"><a class="nav-link" href="artikel.php">Artikel</a></li>
+				<li class="nav-item"><a class="nav-link" href="konselor.php">Konselor</a></li>
+			   <li class="nav-item"><a class="nav-link" href="riwayat.php">Riwayat</a></li>
+			   <!-- <li class="nav-item"><a class="nav-link" href="login.php">Login</a></li> -->
 			</ul>
 		  </div>
 		</div>
@@ -103,12 +79,12 @@
 			<div class="col-lg-6 col-md-12 col-xl-7">
 				<div class="block">
 					<div class="divider mb-3"></div>
-					<span class="text-uppercase text-sm letter-spacing ">Berkonsultasi</span>
-					<h1 class="mb-3 mt-3">Konsultasi aman dan terpercaya</h1>
+					<span class="text-uppercase text-sm letter-spacing ">Selamat datang di</span>
+					<h1 class="mb-3 mt-3">Consultify</h1>
 					
-					<p class="mb-4 pr-5">Tempat konsultasi terbaik untuk kamu</p>
+					<p class="mb-4 pr-5">Consultify adalah web inovatif yang dirancang khusus untuk memberikan bimbingan konseling online yang holistik mengenai kesehatan mental dan pengembangan karir. Aplikasi ini menggabungkan keahlian profesional di bidang konseling dengan teknologi canggih untuk memberikan pengguna pengalaman pribadi yang mendalam dan relevan.</p>
 					<div class="btn-container ">
-						<a href="bookingconsult.php" target="_blank" class="btn btn-main-2 btn-icon btn-round-full">Booking Consult <i class="icofont-simple-right ml-2  "></i></a>
+						<a href="bookingconsult.php" target="_blank" class="btn btn-main-2 btn-icon btn-round-full">Lakukan Janji Temu <i class="icofont-simple-right ml-2  "></i></a>
 					</div>
 				</div>
 			</div>
@@ -126,8 +102,8 @@
 						</div>
 						<span>24 Hours Service</span>
 						<h4 class="mb-3">Online Appoinment</h4>
-						<p class="mb-4">bismillah</p>
-						<a href="bookingconsult.php" class="btn btn-main btn-round-full">Make a appoinment</a>
+						<p class="mb-4">Get ALl time support for emergency.We have introduced the principle of family medicine.</p>
+						<a href="bookingconsult.php" class="btn btn-main btn-round-full">Lakukan Janji Temu</a>
 					</div>
 				
 					<div class="feature-item mb-5 mb-lg-0">
@@ -147,9 +123,9 @@
 						<div class="feature-icon mb-4">
 							<i class="icofont-support"></i>
 						</div>
-						<span>Pembayarannn</span>
-						<h4 class="mb-3">021-xxx-xxx</h4>
-						<p>Looooooooooooremmmmmmm</p>
+						<span>Emegency Cases</span>
+						<h4 class="mb-3">1-800-700-6200</h4>
+						<p>Get ALl time support for emergency.We have introduced the principle of family medicine.Get Conneted with us for any urgency .</p>
 					</div>
 				</div>
 			</div>
@@ -198,7 +174,7 @@
 					<div class="counter-stat">
 						<i class="icofont-flag"></i>
 						<span class="h3">700</span>+
-						<p>Consulting Comepleted</p>
+						<p>Surgery Comepleted</p>
 					</div>
 				</div>
 				
@@ -206,7 +182,7 @@
 					<div class="counter-stat">
 						<i class="icofont-badge"></i>
 						<span class="h3">40</span>+
-						<p>Expert Conselour</p>
+						<p>Expert Doctors</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-6">
@@ -225,7 +201,7 @@
 		<div class="row justify-content-center">
 			<div class="col-lg-7 text-center">
 				<div class="section-title">
-					<h2>Testimoni</h2>
+					<h2>Award winning patient care</h2>
 					<div class="divider mx-auto my-4"></div>
 					<p>Lets know moreel necessitatibus dolor asperiores illum possimus sint voluptates incidunt molestias nostrum laudantium. Maiores porro cumque quaerat.</p>
 				</div>
@@ -237,7 +213,7 @@
 				<div class="service-item mb-4">
 					<div class="icon d-flex align-items-center">
 						<i class="icofont-laboratory text-lg"></i>
-						<h4 class="mt-3 mb-3">Nanti diisi</h4>
+						<h4 class="mt-3 mb-3">Laboratory services</h4>
 					</div>
 
 					<div class="content">
@@ -250,7 +226,7 @@
 				<div class="service-item mb-4">
 					<div class="icon d-flex align-items-center">
 						<i class="icofont-heart-beat-alt text-lg"></i>
-						<h4 class="mt-3 mb-3">Nanti diisi</h4>
+						<h4 class="mt-3 mb-3">Heart Disease</h4>
 					</div>
 					<div class="content">
 						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
@@ -262,7 +238,7 @@
 				<div class="service-item mb-4">
 					<div class="icon d-flex align-items-center">
 						<i class="icofont-tooth text-lg"></i>
-						<h4 class="mt-3 mb-3">Nanti diisi</h4>
+						<h4 class="mt-3 mb-3">Dental Care</h4>
 					</div>
 					<div class="content">
 						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
@@ -275,7 +251,7 @@
 				<div class="service-item mb-4">
 					<div class="icon d-flex align-items-center">
 						<i class="icofont-crutch text-lg"></i>
-						<h4 class="mt-3 mb-3">Nanti diisi</h4>
+						<h4 class="mt-3 mb-3">Body Surgery</h4>
 					</div>
 
 					<div class="content">
@@ -288,7 +264,7 @@
 				<div class="service-item mb-4">
 					<div class="icon d-flex align-items-center">
 						<i class="icofont-brain-alt text-lg"></i>
-						<h4 class="mt-3 mb-3">Nanti diisi</h4>
+						<h4 class="mt-3 mb-3">Neurology Sargery</h4>
 					</div>
 					<div class="content">
 						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
@@ -300,7 +276,7 @@
 				<div class="service-item mb-4">
 					<div class="icon d-flex align-items-center">
 						<i class="icofont-dna-alt-1 text-lg"></i>
-						<h4 class="mt-3 mb-3">Nanti diisi</h4>
+						<h4 class="mt-3 mb-3">Gynecology</h4>
 					</div>
 					<div class="content">
 						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
@@ -317,7 +293,7 @@
 				<div class="appoinment-content">
 					<img src="images/about/img-3.jpg" alt="" class="img-fluid">
 					<div class="emergency">
-						<h2 class="text-lg"><i class="icofont-phone-circle text-lg"></i>+62xxxxxxxx</h2>
+						<h2 class="text-lg"><i class="icofont-phone-circle text-lg"></i>+23 345 67980</h2>
 					</div>
 				</div>
 			</div>
@@ -383,7 +359,7 @@
                         <textarea name="message" id="message" class="form-control" rows="6" placeholder="Your Message"></textarea>
                     </div>
 
-                    <a class="btn btn-main btn-round-full" href="appoinment.html" >Make Appoinment <i class="icofont-simple-right ml-2  "></i></a>
+                    <a class="btn btn-main btn-round-full" href="appoinment.html" >Lakukan Janji Temu <i class="icofont-simple-right ml-2  "></i></a>
                 </form>
             </div>
 			</div>
@@ -395,9 +371,9 @@
 		<div class="row justify-content-center">
 			<div class="col-lg-7">
 				<div class="section-title text-center">
-					<h2>We served over 500+ patients</h2>
+					<h2>We served over 5000+ Patients</h2>
 					<div class="divider mx-auto my-4"></div>
-					<p>Mari kita dengar apa kata mereka</p>
+					<p>Lets know moreel necessitatibus dolor asperiores illum possimus sint voluptates incidunt molestias nostrum laudantium. Maiores porro cumque quaerat.</p>
 				</div>
 			</div>
 		</div>
@@ -414,10 +390,10 @@
 					</div>
 
 					<div class="client-info ">
-						<h4>Testimoni 1</h4>
-						<span>Cece</span>
+						<h4>Amazing service!</h4>
+						<span>John Partho</span>
 						<p>
-							Keren kak.
+							They provide great service facilty consectetur adipisicing elit. Itaque rem, praesentium, iure, ipsum magnam deleniti a vel eos adipisci suscipit fugit placeat.
 						</p>
 					</div>
 				</div>
@@ -428,9 +404,11 @@
 					</div>
 
 					<div class="client-info">
-						<h4>Testimoni 2</h4>
-						<span>Kiyoko</span>
-						<p>lorem Ipsuuuuuuuuuuuuuummmmmmmmmmmm</p>
+						<h4>Expert doctors!</h4>
+						<span>Mullar Sarth</span>
+						<p>
+							They provide great service facilty consectetur adipisicing elit. Itaque rem, praesentium, iure, ipsum magnam deleniti a vel eos adipisci suscipit fugit placeat.
+						</p>
 					</div>
 					
 					<i class="icofont-quote-right"></i>
@@ -442,17 +420,17 @@
 					</div>
 
 					<div class="client-info">
-						<h4>Testimoni 3</h4>
-						<span>WR Soepratman</span>
+						<h4>Good Support!</h4>
+						<span>Kolis Mullar</span>
 						<p>
-							Indonesia Raya merdeka merdeka
+							They provide great service facilty consectetur adipisicing elit. Itaque rem, praesentium, iure, ipsum magnam deleniti a vel eos adipisci suscipit fugit placeat.
 						</p>
 					</div>
 					
 					<i class="icofont-quote-right"></i>
 				</div>
 
-				<!-- <div class="testimonial-block style-2  gray-bg">
+				<div class="testimonial-block style-2  gray-bg">
 					<div class="testimonial-thumb">
 						<img src="images/team/test-thumb4.jpg" alt="" class="img-fluid">
 					</div>
@@ -465,9 +443,9 @@
 						</p>
 					</div>
 					<i class="icofont-quote-right"></i>
-				</div> -->
+				</div>
 
-				<!-- <div class="testimonial-block style-2  gray-bg">
+				<div class="testimonial-block style-2  gray-bg">
 					<div class="testimonial-thumb">
 						<img src="images/team/test-thumb1.jpg" alt="" class="img-fluid">
 					</div>
@@ -480,7 +458,7 @@
 						</p>
 					</div>
 					<i class="icofont-quote-right"></i>
-				</div> -->
+				</div>
 			</div>
 		</div>
 	</div>
@@ -553,7 +531,6 @@
 		</div>
 	</div>
 </section>
-
 <!-- footer Start -->
 <footer class="footer section gray-bg">
 	<div class="container">
@@ -561,7 +538,7 @@
 			<div class="col-lg-4 mr-auto col-sm-6">
 				<div class="widget mb-5 mb-lg-0">
 					<div class="logo mb-4">
-						<img src="images/consultify.png" alt="" class="img-fluid">
+						<img src="images/logo.png" alt="" class="img-fluid">
 					</div>
 					<p>Tempora dolorem voluptatum nam vero assumenda voluptate, facilis ad eos obcaecati tenetur veritatis eveniet distinctio possimus.</p>
 
@@ -631,7 +608,7 @@
 			<div class="row align-items-center justify-content-between">
 				<div class="col-lg-6">
 					<div class="copyright">
-						&copy; Copyright Reserved to <span class="text-color">consultify</span>
+						&copy; Copyright Reserved to <span class="text-color">Consultify</span> by <a href="https://themefisher.com/" target="_blank">Themefisher</a>
 					</div>
 				</div>
 				<div class="col-lg-6">
@@ -654,11 +631,11 @@
 		</div>
 	</div>
 
-	<!-- <div class="col-lg-12">
+	<div class="col-lg-12">
 		<div class="copyright text-lg-center">
 	  Distributed by <a href="https://themewagon.com/" target="_blank">Themewagon</a>
 		</div>
-	</div> -->
+	</div>
 </footer>
 
    

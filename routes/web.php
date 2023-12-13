@@ -19,12 +19,8 @@ Route::get('/', function () {
     return view('/index');
 });
 
-Route::get('/about.php', function () {
-    return view('/homepage/about');
-});
-
 Route::get('/home.php', function () {
-    return view('/homepage/home');
+    return view('/header/home');
 });
 
 Route::get('/bookingconsult.php', function () {
