@@ -208,7 +208,7 @@
 					<div class="logo mb-4">
 						<img src="images/logo.png" alt="" class="img-fluid">
 					</div>
-					<p>Tempora dolorem voluptatum nam vero assumenda voluptate, facilis ad eos obcaecati tenetur veritatis eveniet distinctio possimus.</p>
+					<p>Kunjungi media sosial kami untuk dapat melihat info menarik lainnya tentang consultify</p>
 
 					<ul class="list-inline footer-socials mt-4">
 						<li class="list-inline-item"><a href="https://www.facebook.com/themefisher"><i class="icofont-facebook"></i></a></li>
@@ -240,7 +240,7 @@
 					<div class="footer-contact-block mb-4">
 						<div class="icon d-flex align-items-center">
 							<i class="icofont-email mr-3"></i>
-							<span class="h6 mb-0">Support Available for 24/7</span>
+							<span class="h6 mb-0">Layanan tersedia 24 jam</span>
 						</div>
 						<h4 class="mt-2"><a href="tel:+0813-8889-4512">hermawanalghozy@gmail.com</a></h4>
 					</div>
@@ -248,7 +248,7 @@
 					<div class="footer-contact-block">
 						<div class="icon d-flex align-items-center">
 							<i class="icofont-support mr-3"></i>
-							<span class="h6 mb-0">Mon to Fri : 08:30 - 18:00</span>
+							<span class="h6 mb-0">Layanan Senin s/d Jumat : 08:30 - 18:00</span>
 						</div>
 						<h4 class="mt-2"><a href="tel:+23-345-67890">+23-456-6588</a></h4>
 					</div>
