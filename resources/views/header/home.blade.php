@@ -100,7 +100,7 @@
 						<div class="feature-icon mb-4">
 							<i class="icofont-surgeon-alt"></i>
 						</div>
-						<span>24 Hours Service</span>
+						<span>Pelayanan 24 Jam</span>
 						<h4 class="mb-3">Online Appoinment</h4>
 						<p class="mb-4">Get ALl time support for emergency.We have introduced the principle of family medicine.</p>
 						<a href="bookingconsult.php" class="btn btn-main btn-round-full">Lakukan Janji Temu</a>
@@ -113,7 +113,7 @@
 						<span>Timing schedule</span>
 						<h4 class="mb-3">Working Hours</h4>
 						<ul class="w-hours list-unstyled">
-		                    <li class="d-flex justify-content-between">Sun - Wed : <span>8:00 - 17:00</span></li>
+		                    <li class="d-flex justify-content-between">Minggu - Rabu : <span>8:00 - 17:00</span></li>
 		                    <li class="d-flex justify-content-between">Thu - Fri : <span>9:00 - 17:00</span></li>
 		                    <li class="d-flex justify-content-between">Sat - sun : <span>10:00 - 17:00</span></li>
 		                </ul>
