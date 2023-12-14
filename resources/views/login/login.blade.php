@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Consultify</title>
-  <link rel="shortcut icon" type="image/png" href="../public/assets3/images/logos/favicon.png" />
-  <link rel="stylesheet" href="../public/assets3/css/styles.min.css" />
+  <link rel="shortcut icon" type="image/png" href="{{ asset('assets3/images/logos/favicon.png')}}" />
+  <link rel="stylesheet" href="{{ asset('assets3/css/styles.min.css') }}">
 </head>
 
 <body>
@@ -55,8 +55,8 @@
       </div>
     </div>
   </div>
-  <script src="../public/assets3/libs/jquery/dist/jquery.min.js"></script>
-  <script src="../public/assets3/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets3/libs/jquery/dist/jquery.min.js"></script>
+  <script src="../assets3/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
