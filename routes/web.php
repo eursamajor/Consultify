@@ -23,6 +23,18 @@ Route::get('/home.php', function () {
     return view('/header/home');
 });
 
+Route::get('/konselor.php', function () {
+    return view('/header/konselor');
+});
+
+Route::get('/artikel.php', function () {
+    return view('/header/artikel');
+});
+
+Route::get('/login.php', function () {
+    return view('/login/login');
+});
+
 Route::get('/bookingconsult.php', function () {
     return view('/booking/bookingconsult');
 });
@@ -33,11 +45,6 @@ Route::get('/pembayaran.php', function () {
 
 Route::get('/confirmation.php', function () {
     return view('/booking/confirmation');
-});
-
-
-Route::get('/artikel.php', function () {
-    return view('/header/artikel');
 });
 
 

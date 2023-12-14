@@ -32,14 +32,14 @@
 			<div class="row align-items-center">
 				<div class="col-lg-6">
 					<ul class="top-bar-info list-inline-item pl-0 mb-0">
-						<li class="list-inline-item"><a href="mailto:support@gmail.com"><i class="icofont-support-faq mr-2"></i>support@consultify.com</a></li>
+						<li class="list-inline-item"><a href="mailto:radithaar08@gmailcom"><i class="icofont-support-faq mr-2"></i>radithaar08@gmail.com</a></li>
 						<li class="list-inline-item"><i class="icofont-location-pin mr-2"></i>Bandung, Indonesia </li>
 					</ul>
 				</div>
 				<div class="col-lg-6">
 					<div class="text-lg-right top-right-bar mt-2 mt-lg-0">
 						<a href="tel:+021-234-567" >
-							<span>Call Now : </span>
+							<span>Hubungi kami : </span>
 							<span class="h4">021-xxx-xxx</span>
 						</a>
 					</div>
@@ -113,7 +113,7 @@
                     <div class="row">
                          <div class="col-lg-6">
                             <div class="form-group">
-                                <select class="form-control" id="exampleFormControlSelect1">
+                                <select class="form-control" id="jenis_konsultasi">
                                   <option>Jenis Konsultasi</option>
                                   <option>Karir Pekerjaan</option>
                                   <option>Kesehatan Mental</option>
@@ -122,7 +122,7 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="form-group">
-                                <select class="form-control" id="exampleFormControlSelect2">
+                                <select class="form-control" id="konselor">
                                   <option>Pilih Konselor</option>
                                   <option>Hermawan</option>
                                   <option>Raditha</option>
@@ -182,9 +182,9 @@
 					<p>Kunjungi media sosial kami untuk dapat melihat info menarik lainnya tentang consultify.</p>
 
 					<ul class="list-inline footer-socials mt-4">
-						<li class="list-inline-item"><a href="https://www.facebook.com/themefisher"><i class="icofont-facebook"></i></a></li>
-						<li class="list-inline-item"><a href="https://twitter.com/themefisher"><i class="icofont-twitter"></i></a></li>
-						<li class="list-inline-item"><a href="https://www.pinterest.com/themefisher/"><i class="icofont-linkedin"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.facebook.com/consultify"><i class="icofont-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="https://twitter.com/consultify"><i class="icofont-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="https://linkedin/consultify/"><i class="icofont-linkedin"></i></a></li>
 					</ul>
 				</div>
 			</div>
@@ -199,7 +199,7 @@
 							<i class="icofont-email mr-3"></i>
 							<span class="h6 mb-0">Layanan tersedia 24 jam</span>
 						</div>
-						<h4 class="mt-2"><a href="tel:+23-345-67890">rexcelpabian@gmail.com</a></h4>
+						<h4 class="mt-2"><a href="mailto:radithaar08@gmail.com">radithaar08@gmail.com</a></h4>
 					</div>
 
 					<div class="footer-contact-block">
@@ -213,11 +213,11 @@
 			</div>
 		</div>
 		
-		<div class="footer-btm py-4 mt-5">
+    <div class="footer-btm py-4 mt-5">
 			<div class="row align-items-center justify-content-between">
 				<div class="col-lg-6">
 					<div class="copyright">
-						&copy; Copyright Reserved to <span class="text-color">Novena</span> by <a href="https://themefisher.com/" target="_blank">Themefisher</a>
+						&copy; Copyright Reserved to <span class="text-color">Consultify</span>
 					</div>
 				</div>
 				<div class="col-lg-6">
@@ -239,14 +239,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="col-lg-12">
-		<div class="copyright text-lg-center">
-	  Distributed by <a href="https://themewagon.com/" target="_blank">Themewagon</a>
-		</div>
-	</div>
-</footer>
    
-
     <!-- 
     Essential Scripts
     =====================================-->
