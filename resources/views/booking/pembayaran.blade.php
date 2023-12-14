@@ -114,9 +114,9 @@
                             <img src="assets2/images/product-2.png" alt="Image" class="img-fluid">
                           </td>
                           <td class="product-name">
-                            <h2 class="h5 text-black">Product 2</h2>
+                            <h2 class="h5 text-black">Konsultasi</h2>
                           </td>
-                          <td>$49.00</td>
+                          <td>Rp100.000</td>
                           <td>
                             <div class="input-group mb-3 d-flex align-items-center quantity-container" style="max-width: 120px;">
                               <div class="input-group-prepend">
