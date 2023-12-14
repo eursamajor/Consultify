@@ -3,12 +3,12 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="description" content="Orbitor,business,company,agency,modern,bootstrap4,tech,software">
-  <meta name="author" content="consultify.com">
+  <meta name="author" content="themefisher.com">
 
-  <title>Consultify - Find Your Happiness Here</title>
+  <title>Consultify - Find your happiness here</title>
 
   <!-- Favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+  <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/c.png') }}" />
 
   <!-- bootstrap.min css -->
   <link rel="stylesheet" href="{{ asset('assets/plugins/bootstrap/css/bootstrap.min.css') }}">
@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 
 </head>
+
 
 <body id="top">
 
