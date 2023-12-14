@@ -21,7 +21,7 @@
             <div class="card mb-0">
               <div class="card-body">
                 <a href="./index.html" class="text-nowrap logo-img text-center d-block py-3 w-100">
-                  <img src="../assets3/images/logos/dark-logo.svg" width="180" alt="">
+                  <img src="../assets3/images/logos/logo.png" width="180" alt="">
                 </a>
                 <p class="text-center">Consultify</p>
                 <form>
@@ -42,10 +42,10 @@
                     </div>
                     <a class="text-primary fw-bold" href="./index.html">Forgot Password?</a>
                   </div>
-                  <a href="./index.html" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2">Sign In</a>
+                  <a href="home.php" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2">Sign In</a>
                   <div class="d-flex align-items-center justify-content-center">
                     <p class="fs-4 mb-0 fw-bold">New to Consultify?</p>
-                    <a class="text-primary fw-bold ms-2" href="./authentication-register.html">Create an account</a>
+                    <a class="text-primary fw-bold ms-2" href="register.php">Create an account</a>
                   </div>
                 </form>
               </div>
