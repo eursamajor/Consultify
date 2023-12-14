@@ -35,6 +35,10 @@ Route::get('/login.php', function () {
     return view('/login/login');
 });
 
+Route::get('/register.php', function () {
+    return view('/login/register');
+});
+
 Route::get('/bookingconsult.php', function () {
     return view('/booking/bookingconsult');
 });
