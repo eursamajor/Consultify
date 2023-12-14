@@ -31,6 +31,10 @@ Route::get('/artikel.php', function () {
     return view('/header/artikel');
 });
 
+Route::get('/riwayat.php', function () {
+    return view('/header/riwayat');
+});
+
 Route::get('/login.php', function () {
     return view('/login/login');
 });
