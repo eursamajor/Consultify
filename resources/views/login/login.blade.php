@@ -1,132 +1,62 @@
-<script setup>
-import AuthProvider from 'resources/views/login/AuthProvider.php'
-import logo from '@images/logo.svg?raw'
+<!doctype html>
+<html lang="en">
 
-const form = ref({
-  email: '',
-  password: '',
-  remember: false,
-})
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Consultify</title>
+  <link rel="shortcut icon" type="image/png" href="../public/assets3/images/logos/favicon.png" />
+  <link rel="stylesheet" href="../public/assets3/css/styles.min.css" />
+</head>
 
-const isPasswordVisible = ref(false)
-</script>
-
-<template>
-  <div class="auth-wrapper d-flex align-center justify-center pa-4">
-    <VCard
-      class="auth-card pa-4 pt-7"
-      max-width="448"
-    >
-      <VCardItem class="justify-center">
-        <template #prepend>
-          <div class="d-flex">
-            <div
-              class="d-flex text-primary"
-              v-html="logo"
-            />
-          </div>
-        </template>
-
-        <VCardTitle class="text-2xl font-weight-bold">
-          sneat
-        </VCardTitle>
-      </VCardItem>
-
-      <VCardText class="pt-2">
-        <h5 class="text-h5 mb-1">
-          Welcome to sneat! 👋🏻
-        </h5>
-        <p class="mb-0">
-          Please sign-in to your account and start the adventure
-        </p>
-      </VCardText>
-
-      <VCardText>
-        <VForm @submit.prevent="$router.push('/')">
-          <VRow>
-            <!-- email -->
-            <VCol cols="12">
-              <VTextField
-                v-model="form.email"
-                autofocus
-                placeholder="johndoe@email.com"
-                label="Email"
-                type="email"
-              />
-            </VCol>
-
-            <!-- password -->
-            <VCol cols="12">
-              <VTextField
-                v-model="form.password"
-                label="Password"
-                placeholder="············"
-                :type="isPasswordVisible ? 'text' : 'password'"
-                :append-inner-icon="isPasswordVisible ? 'bx-hide' : 'bx-show'"
-                @click:append-inner="isPasswordVisible = !isPasswordVisible"
-              />
-
-              <!-- remember me checkbox -->
-              <div class="d-flex align-center justify-space-between flex-wrap mt-1 mb-4">
-                <VCheckbox
-                  v-model="form.remember"
-                  label="Remember me"
-                />
-
-                <RouterLink
-                  class="text-primary ms-2 mb-1"
-                  to="javascript:void(0)"
-                >
-                  Forgot Password?
-                </RouterLink>
+<body>
+  <!--  Body Wrapper -->
+  <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+    data-sidebar-position="fixed" data-header-position="fixed">
+    <div
+      class="position-relative overflow-hidden radial-gradient min-vh-100 d-flex align-items-center justify-content-center">
+      <div class="d-flex align-items-center justify-content-center w-100">
+        <div class="row justify-content-center w-100">
+          <div class="col-md-8 col-lg-6 col-xxl-3">
+            <div class="card mb-0">
+              <div class="card-body">
+                <a href="./index.html" class="text-nowrap logo-img text-center d-block py-3 w-100">
+                  <img src="../public/assets3/images/logos/dark-logo.svg" width="180" alt="">
+                </a>
+                <p class="text-center">Your Social Campaigns</p>
+                <form>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Username</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-4">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between mb-4">
+                    <div class="form-check">
+                      <input class="form-check-input primary" type="checkbox" value="" id="flexCheckChecked" checked>
+                      <label class="form-check-label text-dark" for="flexCheckChecked">
+                        Remeber this Device
+                      </label>
+                    </div>
+                    <a class="text-primary fw-bold" href="./index.html">Forgot Password ?</a>
+                  </div>
+                  <a href="./index.html" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2">Sign In</a>
+                  <div class="d-flex align-items-center justify-content-center">
+                    <p class="fs-4 mb-0 fw-bold">New to Modernize?</p>
+                    <a class="text-primary fw-bold ms-2" href="./authentication-register.html">Create an account</a>
+                  </div>
+                </form>
               </div>
-
-              <!-- login button -->
-              <VBtn
-                block
-                type="submit"
-              >
-                Login
-              </VBtn>
-            </VCol>
-
-            <!-- create account -->
-            <VCol
-              cols="12"
-              class="text-center text-base"
-            >
-              <span>New on our platform?</span>
-              <RouterLink
-                class="text-primary ms-2"
-                to="/register"
-              >
-                Create an account
-              </RouterLink>
-            </VCol>
-
-            <VCol
-              cols="12"
-              class="d-flex align-center"
-            >
-              <VDivider />
-              <span class="mx-4">or</span>
-              <VDivider />
-            </VCol>
-
-            <!-- auth providers -->
-            <VCol
-              cols="12"
-              class="text-center"
-            >
-              <AuthProvider />
-            </VCol>
-          </VRow>
-        </VForm>
-      </VCardText>
-    </VCard>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-</template>
+  <script src="../public/assets3/libs/jquery/dist/jquery.min.js"></script>
+  <script src="../public/assets3/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 
-<style lang="scss">
-@use "public/assets/scss/template/page-auth.scss";
-</style>
+</html>
