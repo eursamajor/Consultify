@@ -203,9 +203,9 @@
 		<footer class="footer-section">
 			<div class="container relative">
 
-				<div class="sofa-img">
+				<!-- <div class="sofa-img">
 					<img src="assets2/images/sofa.png" alt="Image" class="img-fluid">
-				</div>
+				</div> -->
 
 				<div class="row">
 					<div class="col-lg-8">
