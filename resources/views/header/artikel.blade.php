@@ -121,7 +121,7 @@
 		<div class="row">
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="service-block mb-5">
-					<img src="images/service/service-1.jpg" alt="" class="img-fluid">
+					<img src="assets/images/service/service-1.jpg" alt="" class="img-fluid">
 					<div class="content">
 						<h4 class="mt-4 mb-2 title-color">Berolahraga</h4>
 						<p class="mb-4"> 30 menit berolahraga dapat meningkatkan produksi serotonin atau suatu neurotransmitter yang terkait dengan pengaturan suasana hati, perilaku sosial, kualitas tidur, nafsu makan, dan memori.</p>
@@ -131,7 +131,7 @@
 
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="service-block mb-5">
-					<img src="images/service/service-2.jpg" alt="" class="img-fluid">
+					<img src="assets/images/service/service-2.jpg" alt="" class="img-fluid">
 					<div class="content">
 						<h4 class="mt-4 mb-2  title-color">Berbaur kepada orang sekitar</h4>
 						<p class="mb-4">pelihara hubungan yang baik dengan orang sekitar kita. Jika belum bisa memberi ketentraman, setidaknya jangan membuat kekacauan dan menambah permasalahan.</p>
@@ -141,7 +141,7 @@
 			
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="service-block mb-5">
-					<img src="images/service/service-3.jpg" alt="" class="img-fluid">
+					<img src="assets/images/service/service-3.jpg" alt="" class="img-fluid">
 					<div class="content">
 						<h4 class="mt-4 mb-2 title-color">Menetapkan tujuan yang realistis</h4>
 						<p class="mb-4">Putuskan apa yang ingin Anda capai secara akademis, profesional, dan pribadi, kemudian tuliskan langkah-langkah yang Anda butuhkan untuk mewujudkan hal itu.</p>
@@ -152,7 +152,7 @@
 
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="service-block mb-5 mb-lg-0">
-					<img src="images/service/service-4.jpg" alt="" class="img-fluid">
+					<img src="assets/images/service/service-4.jpg" alt="" class="img-fluid">
 					<div class="content">
 						<h4 class="mt-4 mb-2 title-color">Menggunakan sistem rekrutmen manual</h4>
 						<p class="mb-4">satu tahap rekrutmen yang menghabiskan banyak waktu adalah tahap screening, dimana tim HR harus menyaring satu per satu lamaran yang masuk.</p>
@@ -162,7 +162,7 @@
 
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="service-block mb-5 mb-lg-0">
-					<img src="images/service/service-6.jpg" alt="" class="img-fluid">
+					<img src="assets/images/service/service-6.jpg" alt="" class="img-fluid">
 					<div class="content">
 						<h4 class="mt-4 mb-2 title-color">Pilihan kandidat terbatas</h4>
 						<p class="mb-4">Kendala yang seringkali didapatkan oleh tim HR adalah pilihan kandidat yang terbatas.</p>
@@ -172,7 +172,7 @@
 			
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="service-block mb-5 mb-lg-0">
-					<img src="images/service/service-8.jpg" alt="" class="img-fluid">
+					<img src="assets/images/service/service-8.jpg" alt="" class="img-fluid">
 					<div class="content">
 						<h4 class="mt-4 mb-2 title-color">Iklan lowongan yang kurang menarik</h4>
 						<p class="mb-4">Salah satu hal yang membuat pelamar ragu untuk melamar posisi yang Anda tawarkan adalah karena iklan lowongan yang kurang menarik.</p>
@@ -203,12 +203,12 @@
 			<div class="col-lg-4 mr-auto col-sm-6">
 				<div class="widget mb-5 mb-lg-0">
 					<div class="logo mb-4">
-						<img src="images/logo.png" alt="" class="img-fluid">
+						<img src="assets/images/consultify.png" alt="" class="img-fluid">
 					</div>
 					<p>Kunjungi media sosial kami untuk dapat melihat info menarik lainnya tentang consultify</p>
 
 					<ul class="list-inline footer-socials mt-4">
-						<li class="list-inline-item"><a href="https://www.facebook.com/themefisher"><i class="icofont-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.facebook.com/consultify"><i class="icofont-facebook"></i></a></li>
 						<li class="list-inline-item"><a href="https://twitter.com/themefisher"><i class="icofont-twitter"></i></a></li>
 						<li class="list-inline-item"><a href="https://www.pinterest.com/themefisher/"><i class="icofont-linkedin"></i></a></li>
 					</ul>
