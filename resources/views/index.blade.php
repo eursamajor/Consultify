@@ -113,9 +113,9 @@
 						<span>Jadwal Konsultasi</span>
 						<h4 class="mb-3">Jam Kerja</h4>
 						<ul class="w-hours list-unstyled">
-		                    <li class="d-flex justify-content-between">Minggu - Rabu : <span>8:00 - 17:00</span></li>
-		                    <li class="d-flex justify-content-between">Thu - Fri : <span>9:00 - 17:00</span></li>
-		                    <li class="d-flex justify-content-between">Sat - sun : <span>10:00 - 17:00</span></li>
+		                    <li class="d-flex justify-content-between">Senin - Rabu : <span>8:00 - 17:00</span></li>
+		                    <li class="d-flex justify-content-between">Kamis - Jumat : <span>9:00 - 17:00</span></li>
+		                    <li class="d-flex justify-content-between">Sabtu - Minggu : <span>10:00 - 17:00</span></li>
 		                </ul>
 					</div>
 				
