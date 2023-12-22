@@ -76,7 +76,7 @@
                     <table class="table">
                       <thead>
                         <tr>
-                          <th class="product-thumbnail">Image</th>
+                          <th class="product-thumbnail">Foto</th>
                           <th class="product-name">Konselor</th>
                           <th class="product-price">Harga</th>
                           <th class="product-quantity">Jumlah</th>
@@ -87,10 +87,10 @@
                       <tbody>
                         <tr>
                           <td class="product-thumbnail">
-                            <img src="assets2/images/ryujin.jpg" alt="Image" class="img-fluid">
+                            <img src="assets2/images/dokter1.png" alt="Image" class="img-fluid">
                           </td>
                           <td class="product-name">
-                            <h2 class="h5 text-black">Shin Ryujin</h2>
+                            <h2 class="h5 text-black">Konsultasi 1</h2>
                           </td>
                           <td>Rp.50,000</td>
                           <td>
@@ -111,10 +111,10 @@
         
                         <tr>
                           <td class="product-thumbnail">
-                            <img src="assets2/images/product-2.png" alt="Image" class="img-fluid">
+                            <img src="assets2/images/dokter2.jpg" alt="Image" class="img-fluid">
                           </td>
                           <td class="product-name">
-                            <h2 class="h5 text-black">Konsultasi</h2>
+                            <h2 class="h5 text-black">Konsultasi 2</h2>
                           </td>
                           <td>Rp100.000</td>
                           <td>
@@ -129,7 +129,7 @@
                             </div>
         
                           </td>
-                          <td>$49.00</td>
+                          <td>Rp100.000</td>
                           <td><a href="#" class="btn btn-black btn-sm">X</a></td>
                         </tr>
                       </tbody>
@@ -145,19 +145,19 @@
                       <button class="btn btn-black btn-sm btn-block">Update Cart</button>
                     </div>
                     <div class="col-md-6">
-                      <button class="btn btn-outline-black btn-sm btn-block">Continue Shopping</button>
+                      <button class="btn btn-outline-black btn-sm btn-block">Melanjutkan Konsultasi</button>
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-md-12">
-                      <label class="text-black h4" for="coupon">Coupon</label>
-                      <p>Enter your coupon code if you have one.</p>
+                      <label class="text-black h4" for="coupon">Kupon</label>
+                      <p>Masukan code kupon.</p>
                     </div>
                     <div class="col-md-8 mb-3 mb-md-0">
                       <input type="text" class="form-control py-3" id="coupon" placeholder="Coupon Code">
                     </div>
                     <div class="col-md-4">
-                      <button class="btn btn-black">Apply Coupon</button>
+                      <button class="btn btn-black">Apply Kupon</button>
                     </div>
                   </div>
                 </div>
@@ -166,7 +166,7 @@
                     <div class="col-md-7">
                       <div class="row">
                         <div class="col-md-12 text-right border-bottom mb-5">
-                          <h3 class="text-black h4 text-uppercase">Cart Totals</h3>
+                          <h3 class="text-black h4 text-uppercase">Total Biaya</h3>
                         </div>
                       </div>
                       <div class="row mb-3">
@@ -174,7 +174,7 @@
                           <span class="text-black">Subtotal</span>
                         </div>
                         <div class="col-md-6 text-right">
-                          <strong class="text-black">$230.00</strong>
+                          <strong class="text-black">Rp150.000</strong>
                         </div>
                       </div>
                       <div class="row mb-5">
@@ -182,13 +182,13 @@
                           <span class="text-black">Total</span>
                         </div>
                         <div class="col-md-6 text-right">
-                          <strong class="text-black">$230.00</strong>
+                          <strong class="text-black">Rp150.000</strong>
                         </div>
                       </div>
         
                       <div class="row">
                         <div class="col-md-12">
-                          <button class="btn btn-black btn-lg py-3 btn-block" onclick="window.location='confirmation.php'">Proceed To Checkout</button>
+                          <button class="btn btn-black btn-lg py-3 btn-block" onclick="window.location='confirmation.php'">Checkout</button>
                         </div>
                       </div>
                     </div>
@@ -232,7 +232,7 @@
 
 				<div class="row g-5 mb-5">
 					<div class="col-lg-4">
-						<div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">Furni<span>.</span></a></div>
+						<div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">Consultify<span>.</span></a></div>
 						<p class="mb-4">Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant</p>
 
 						<ul class="list-unstyled custom-social">
@@ -247,10 +247,10 @@
 						<div class="row links-wrap">
 							<div class="col-6 col-sm-6 col-md-3">
 								<ul class="list-unstyled">
-									<li><a href="#">About us</a></li>
-									<li><a href="#">Services</a></li>
+									<li><a href="#">Tentang Kami</a></li>
+									<li><a href="#">Layanan</a></li>
 									<li><a href="#">Blog</a></li>
-									<li><a href="#">Contact us</a></li>
+									<li><a href="#">Hubungi Kami</a></li>
 								</ul>
 							</div>
 

@@ -58,7 +58,7 @@
 		  <div class="collapse navbar-collapse" id="navbarmain">
 			<ul class="navbar-nav ml-auto">
 			  <li class="nav-item active">
-				<a class="nav-link" href="about.php">Home</a>
+				<a class="nav-link" href="home.php">Home</a>
 			  </li>
 			    <li class="nav-item"><a class="nav-link" href="artikel.php">Artikel</a></li>
 				<li class="nav-item"><a class="nav-link" href="konselor.php">Konselor</a></li>
@@ -222,7 +222,7 @@
 				</div>
 				<div class="col-lg-6">
 					<div class="subscribe-form text-lg-right mt-5 mt-lg-0">
-						<form action="#" class="subscribe">
+						<form action="post" class="subscribe">
 							<input type="text" class="form-control" placeholder="Your Email address">
 							<a href="#" class="btn btn-main-2 btn-round-full">Subscribe</a>
 						</form>
