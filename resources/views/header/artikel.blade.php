@@ -25,7 +25,7 @@
 
 <body id="top">
 
-<header>
+<!-- <header>
 	<div class="header-top-bar">
 		<div class="container">
 			<div class="row align-items-center">
@@ -46,7 +46,7 @@
 			</div>
 		</div>
 	</div>
-	<!-- <nav class="navbar navbar-expand-lg navigation" id="navbar">
+	<nav class="navbar navbar-expand-lg navigation" id="navbar">
 		<div class="container">
 			<a class="navbar-brand" href="about.php">Consultify<span>.</span></a>
 
@@ -78,7 +78,7 @@
 						<li><a class="dropdown-item" href="appoinment.html">Appoinment</a></li>
 					</ul>
 			  	</li>
-				<li class="nav-item"><a class="nav-link" href="artikel.php">Artikel</a></li>
+				<li class="nav-item"><a class="nav-link" href="artikel.php">Artikel</a></li> -->
 
 			   <!-- <li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="blog-sidebar.html" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog <i class="icofont-thin-down"></i></a>
@@ -87,7 +87,7 @@
 
 						<li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
 					</ul>
-			  	</li> -->
+			  	</li>
 			   <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 			   <li class="nav-item"><a class="nav-link" href="profile.php">Profile</a></li>
 			</ul>
