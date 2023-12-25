@@ -41,7 +41,7 @@
 							<span>Call Now : </span>
 							<span class="h4">021-xxx-xxx</span>
 						</a>
-					</div>
+					</div> 
 				</div>
 			</div>
 		</div>
