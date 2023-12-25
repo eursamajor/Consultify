@@ -189,7 +189,7 @@
 	<div class="col-lg-12 col-md-12 mb-5">
 		<div class="blog-item">
 			<div class="blog-thumb">
-				<img src="images/blog/blog-2.jpg" alt="" class="img-fluid">
+				<img src="assets/images/blog/blog-2.jpg" alt="" class="img-fluid">
 			</div>
 
 			<div class="blog-item-content">
@@ -211,7 +211,7 @@
 	<div class="col-lg-12 col-md-12 mb-5">
 		<div class="blog-item">
 			<div class="blog-thumb">
-				<img src="images/blog/blog-4.jpg" alt="" class="img-fluid">
+				<img src="assets/images/blog/blog-4.jpg" alt="" class="img-fluid">
 			</div>
 
 			<div class="blog-item-content">

@@ -19,8 +19,12 @@ Route::get('/', function () {
     return view('/index');
 });
 
+Route::get('/about.php', function () {
+    return view('/homepage/about');
+});
+
 Route::get('/home.php', function () {
-    return view('/header/home');
+    return view('/homepage/home');    
 });
 
 Route::get('/konselor.php', function () {
@@ -54,6 +58,17 @@ Route::get('/pembayaran.php', function () {
 Route::get('/confirmation.php', function () {
     return view('/booking/confirmation');
 });
+
+
+Route::get('/artikel.php', function () {
+    return view('/header/artikel');
+});
+
+Route::get('/artikel-1.php', function () {
+    return view('/header/artikel-1');
+});
+
+
 
 
 
