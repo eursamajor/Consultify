@@ -195,32 +195,32 @@
         <div class="container-fluid">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title fw-semibold mb-4">Alerts</h5>
+              <h5 class="card-title fw-semibold mb-4">Riwayat</h5>
               <div class="card mb-0">
                 <div class="card-body p-4">
                   <div class="alert alert-primary" role="alert">
-                    A simple primary alert—check it out!
+                    Transaksi pembayaran konsultasi telah sukes - Cek selengkapnya!
                   </div>
                   <div class="alert alert-secondary" role="alert">
-                    A simple secondary alert—check it out!
+                    Yeay, kamu telah menyelesaikan sesi konsultasi dengan Rexcel Pabian - Cek selengkapnya!
                   </div>
                   <div class="alert alert-success" role="alert">
-                    A simple success alert—check it out!
+                    Mira, lengkapi profil kamu dan nikamti seluruh layanan kami!
                   </div>
                   <div class="alert alert-danger" role="alert">
-                    A simple danger alert—check it out!
+                    Dita, cek diskon harga terkini untuk beberapa data 
                   </div>
                   <div class="alert alert-warning" role="alert">
-                    A simple warning alert—check it out!
+                    Selamat Hari Natal, buruan cek diskon spesial natalmu!
                   </div>
                   <div class="alert alert-info" role="alert">
-                    A simple info alert—check it out!
+                    Rexcel, yuk cek beberapa informatif!
                   </div>
                   <div class="alert alert-light" role="alert">
-                    A simple light alert—check it out!
+                    Dwiko, pembayaranmu belum dituntaskan. Segera tuntaskan untuk menikmati layanan yang kamu mau!
                   </div>
                   <div class="alert alert-dark" role="alert">
-                    A simple dark alert—check it out!
+                    Perbaharui aplikasi untuk menikmati layanan dan fitur terbaru!
                   </div>
                 </div>
               </div>
