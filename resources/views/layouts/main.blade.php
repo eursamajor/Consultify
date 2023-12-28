@@ -24,7 +24,7 @@
 
 </head>
 
-@include('partials.navbar')
+@include('partials.navbar');
 
 @yield('container')
 
