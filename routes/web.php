@@ -23,10 +23,6 @@ Route::get('/about.php', function () {
     return view('/homepage/about');
 });
 
-Route::get('/home.php', function () {
-    return view('/homepage/home');    
-});
-
 Route::get('/konselor.php', function () {
     return view('/header/konselor');
 });
