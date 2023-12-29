@@ -78,8 +78,8 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block text-center">
-          <span class="text-white">News details</span>
-          <h1 class="text-capitalize mb-5 text-lg">Blog Single</h1>
+          <span class="text-white">detail</span>
+          <h1 class="text-capitalize mb-5 text-lg">Artikel</h1>
 
           <!-- <ul class="list-inline breadcumb-nav">
             <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
@@ -110,9 +110,9 @@
 					<span class="text-black text-capitalize mr-3"><i class="icofont-calendar mr-2"></i> 28th January 2019</span>
 				</div> 
 
-				<h2 class="mb-4 text-md"><a href="blog-single.html">Healthy environment to care with modern equipment</a></h2>
+				<h2 class="mb-4 text-md"><a href="blog-single.html">Mari konsultasi kesehatan setiap tahun</a></h2>
 
-				<p class="lead mb-4">Non illo quas blanditiis repellendus laboriosam minima animi. Consectetur accusantium pariatur repudiandae!</p>
+				<p class="lead mb-4">Kesehatan adalah pilar penting dalam kehidupan, karena untuk apa kaya dan menawan tetapi kita tidak sehat. Maka dari itu, konsultasi kesehatan merupakan alternatif untuk menjaga kesehatan secara berkala.</p>
 
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus natus, consectetur? Illum libero vel nihil nisi quae, voluptatem, sapiente necessitatibus distinctio voluptates, iusto qui. Laboriosam autem, nam voluptate in beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae iure officia nihil nemo, repudiandae itaque similique praesentium non aut nesciunt facere nulla, sequi sunt nam temporibus atque earum, ratione, labore.</p>
 
@@ -218,59 +218,59 @@
 		</form>
 	</div>
 </div>
-            </div>
+</div>
             <div class="col-lg-4">
                 <div class="sidebar-wrap pl-lg-4 mt-5 mt-lg-0">
 	<div class="sidebar-widget search  mb-3 ">
-		<h5>Search Here</h5>
+		<h5>Cari disini</h5>
 		<form action="#" class="search-form">
-			<input type="text" class="form-control" placeholder="search">
+			<input type="text" class="form-control" placeholder="Cari">
 			<i class="ti-search"></i>
 		</form>
 	</div>
 
 
 	<div class="sidebar-widget latest-post mb-3">
-		<h5>Popular Posts</h5>
+		<h5>Postingan Populer</h5>
 
         <div class="py-2">
         	<span class="text-sm text-muted">03 Mar 2018</span>
-            <h6 class="my-2"><a href="#">Thoughtful living in los Angeles</a></h6>
+            <h6 class="my-2"><a href="#">Pentingnya air yang sehat dalam kehidupan.</a></h6>
         </div>
 
         <div class="py-2">
-       		<span class="text-sm text-muted">03 Mar 2018</span>
-            <h6 class="my-2"><a href="#">Vivamus molestie gravida turpis.</a></h6>
+       		<span class="text-sm text-muted">07 Mar 2021</span>
+            <h6 class="my-2"><a href="#">Keluarga Harmonis dengan lakukan ritual ini.</a></h6>
         </div>
 
         <div class="py-2">
-        	<span class="text-sm text-muted">03 Mar 2018</span>
-            <h6 class="my-2"><a href="#">Fusce lobortis lorem at ipsum semper sagittis</a></h6>
+        	<span class="text-sm text-muted">03 Mei 2019</span>
+            <h6 class="my-2"><a href="#">Olahraga sebelum berkerja dapat meningkatkan mood.</a></h6>
         </div>
 	</div>
 
 	<div class="sidebar-widget category mb-3">
-		<h5 class="mb-4">Categories</h5>
+		<h5 class="mb-4">Kategori</h5>
 
 		<ul class="list-unstyled">
 		  <li class="align-items-center">
-		    <a href="#">Medicine</a>
+		    <a href="#">Kesehatan</a>
 		    <span>(14)</span>
 		  </li>
 		  <li class="align-items-center">
-		    <a href="#">Equipments</a>
+		    <a href="#">Habbits</a>
 		    <span>(2)</span>
 		  </li>
 		  <li class="align-items-center">
-		    <a href="#">Heart</a>
+		    <a href="#">Cinta</a>
 		    <span>(10)</span>
 		  </li>
 		  <li class="align-items-center">
-		    <a href="#">Free counselling</a>
+		    <a href="#">Konseling gratis</a>
 		    <span>(5)</span>
 		  </li>
 		  <li class="align-items-center">
-		    <a href="#">Lab test</a>
+		    <a href="#">Pekerjaan</a>
 		    <span>(5)</span>
 		  </li>
 		</ul>
@@ -280,41 +280,43 @@
 	<div class="sidebar-widget tags mb-3">
 		<h5 class="mb-4">Tags</h5>
 
-		<a href="#">Doctors</a>
-		<a href="#">agency</a>
-		<a href="#">company</a>
-		<a href="#">medicine</a>
-		<a href="#">surgery</a>
+		<a href="#">Kesehatan</a>
+		<a href="#">Pekerjaan</a>
+		<a href="#">Karir</a>
+		<a href="#">Obat</a>
+		<a href="#">Habbits</a>
 		<a href="#">Marketing</a>
-		<a href="#">Social Media</a>
+		<a href="#">Sosial Media</a>
 		<a href="#">Branding</a>
-		<a href="#">Laboratory</a>
+		<a href="#">Mental health</a>
 	</div>
 
 
 	<div class="sidebar-widget schedule-widget mb-3">
-		<h5 class="mb-4">Time Schedule</h5>
+		<h5 class="mb-4">Jam Kerja</h5>
 
 		<ul class="list-unstyled">
 		  <li class="d-flex justify-content-between align-items-center">
-		    <a href="#">Monday - Friday</a>
+		    <a href="#">Senin - Rabu</a>
+		    <span>8:00 - 17:00</span>
+		  </li>
+		  <li class="d-flex justify-content-between align-items-center">
+		    <a href="#">Kamis - Jumat</a>
 		    <span>9:00 - 17:00</span>
 		  </li>
 		  <li class="d-flex justify-content-between align-items-center">
-		    <a href="#">Saturday</a>
-		    <span>9:00 - 16:00</span>
-		  </li>
-		  <li class="d-flex justify-content-between align-items-center">
-		    <a href="#">Sunday</a>
-		    <span>Closed</span>
+		    <a href="#">Sabtu - Minggu</a>
+		    <span>10:00 - 17:00</span>
 		  </li>
 		</ul>
 
 		<div class="sidebar-contatct-info mt-4">
-			<p class="mb-0">Need Urgent Help?</p>
-			<h3>+23-4565-65768</h3>
+			<p class="mb-0">Bantuan Darurat</p>
+			<h3>1-800-700-6200</h3>
 		</div>
 	</div>
+
+</div>
 
 </div>
             </div>   
