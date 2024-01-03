@@ -117,7 +117,7 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus natus, consectetur? Illum libero vel nihil nisi quae, voluptatem, sapiente necessitatibus distinctio voluptates, iusto qui. Laboriosam autem, nam voluptate in beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae iure officia nihil nemo, repudiandae itaque similique praesentium non aut nesciunt facere nulla, sequi sunt nam temporibus atque earum, ratione, labore.</p>
 
 				<blockquote class="quote">
-					A brand for a company is like a reputation for a person. You earn reputation by trying to do hard things well.
+					"Harta yang paling berharga adalah kesehatan."
 				</blockquote>
 
 				
