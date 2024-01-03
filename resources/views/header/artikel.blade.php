@@ -174,7 +174,7 @@
 			<div class="blog-item-content">
 				<div class="blog-item-meta mb-3 mt-4">
 					<span class="text-muted text-capitalize mr-3"><i class="icofont-comment mr-2"></i>5 Komentar</span>
-					<span class="text-black text-capitalize mr-3"><i class="icofont-calendar mr-1"></i> 28 January</span>
+					<span class="text-black text-capitalize mr-3"><i class="icofont-calendar mr-1"></i> 28 Januari</span>
 				</div> 
 
 				<h2 class="mt-3 mb-3"><a href="blog-single.html">Mari konsultasi kesehatan setiap tahun</a></h2>
