@@ -26,12 +26,12 @@
                 <p class="text-center">Consultify</p>
                 <form>
                   <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Username</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <label for="username" class="form-label">Username</label>
+                    <input type="inputusername" class="form-control" id="inputusername" aria-describedby="emailHelp">
                   </div>
                   <div class="mb-4">
-                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    <label for="" class="form-label">Password</label>
+                    <input type="inputpassword" class="form-control" id="inputpassword">
                   </div>
                   <div class="d-flex align-items-center justify-content-between mb-4">
                     <div class="form-check">

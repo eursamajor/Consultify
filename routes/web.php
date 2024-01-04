@@ -1,8 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ConsultationController;
-
+use App\Http\Controllers\LoginController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,9 +21,9 @@ Route::get('/home.php', function () {
     ]);
 });
 
-Route::get('/', function () {
-    return view('/login/login');
-});
+// Route::get('/', function () {
+//     return view('/login/login');
+// });
 
 // Route::get('/home.php', function () {
 //     return view('/homepage/home');
@@ -48,9 +47,9 @@ Route::get('/riwayat.php', function () {
     ]);
 });
 
-Route::get('/login.php', function () {
-    return view('/login/login');
-});
+// Route::get('/login.php', function () {
+//     return view('/login/login');
+// });
 
 Route::get('/register.php', function () {
     return view('/login/register');
@@ -74,7 +73,7 @@ Route::get('/artikel-1.php', function () {
     return view('/header/artikel-1');
 });
 
-
+Route::get('/', [LoginController::class, 'index']);
 
 
 
