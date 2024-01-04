@@ -1,3 +1,6 @@
+@extends('layouts.main')
+@section('container')
+
 <!doctype html>
 <html lang="en">
 
@@ -238,3 +241,4 @@
 </body>
 
 </html>
+@endsection
