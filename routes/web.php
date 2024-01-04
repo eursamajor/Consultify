@@ -15,14 +15,18 @@ use App\Http\Controllers\ConsultationController;
 */
 
 
+// Route::get('/', function () {
+//     return view('/index', [
+//         "title" => "home",
+//         "name" => "atha"
+//     ]);
+// });
+
 Route::get('/', function () {
-    return view('/index', [
-        "title" => "home",
-        "name" => "atha"
-    ]);
+    return view('/login/login');
 });
 
-Route::get('/.php', function () {
+Route::get('/home.php', function () {
     return view('/header/home');
 });
 
