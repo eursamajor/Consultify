@@ -15,20 +15,20 @@ use App\Http\Controllers\ConsultationController;
 */
 
 
-// Route::get('/', function () {
-//     return view('/index', [
-//         "title" => "home",
-//         "name" => "atha"
-//     ]);
-// });
+Route::get('/home.php', function () {
+    return view('/index', [
+        "title" => "home",
+        "name" => "atha"
+    ]);
+});
 
 Route::get('/', function () {
     return view('/login/login');
 });
 
-Route::get('/home.php', function () {
-    return view('/header/home');
-});
+// Route::get('/home.php', function () {
+//     return view('/homepage/home');
+// });
 
 Route::get('/konselor.php', function () {
     return view('/header/konselor', [

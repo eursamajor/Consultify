@@ -79,7 +79,7 @@
 			<div class="col-lg-6 col-md-12 col-xl-7">
 				<div class="block">
 					<div class="divider mb-3"></div>
-					<span class="text-uppercase text-sm letter-spacing ">Selamat datang, {{"$title"}}</span>
+					<span class="text-uppercase text-sm letter-spacing ">Selamat datang, {{"$name"}}</span>
 					<h1 class="mb-3 mt-3">Consultify</h1>
 					
 					<p class="mb-4 pr-5">Consultify adalah web inovatif yang dirancang khusus untuk memberikan bimbingan konseling online yang holistik mengenai kesehatan mental dan pengembangan karir. Aplikasi ini menggabungkan keahlian profesional di bidang konseling dengan teknologi canggih untuk memberikan pengguna pengalaman pribadi yang mendalam dan relevan.</p>
