@@ -403,7 +403,7 @@
 			</div>
 		</div>
 		
-		<div class="footer-btm py-4 mt-5">
+		<!-- <div class="footer-btm py-4 mt-5">
 			<div class="row align-items-center justify-content-between">
 				<div class="col-lg-6">
 					<div class="copyright">
@@ -433,7 +433,7 @@
 		<div class="copyright text-lg-center">
 	  Distributed by <a href="https://themewagon.com/" target="_blank">Themewagon</a>
 		</div>
-	</div>
+	</div> -->
 </footer>
    
 
