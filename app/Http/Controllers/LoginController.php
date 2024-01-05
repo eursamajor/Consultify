@@ -25,8 +25,7 @@ class LoginController extends Controller
             return redirect()->intended('/home.php');
         }
 
-        return back()->with('loginError', 'Login Failed')([
-            'email' => 'The provided credentials do not match our records.',
-        ])->onlyInput('email');
+        return back()->with('loginError', 'Login Failed');
     }
+            
 }
