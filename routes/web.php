@@ -3,8 +3,6 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
-use App\Http\Controllers\DashboardController;
-use App\Http\Controllers\PemesananController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,8 +18,7 @@ use App\Http\Controllers\PemesananController;
 
 Route::get('/', function () {
     return view('/index', [
-        "title" => "home",
-        "name" => "atha"
+        "title" => "home"
     ]);
 });
 
@@ -59,6 +56,10 @@ Route::get('/register', function () {
     return view('/login/register');
 });
 
+Route::get('/dashboard', function () {
+    return view('/homepage/dashboard');
+});
+
 Route::get('/bookingconsult.php', function () {
     return view('/booking/bookingconsult', [
         "title" => "pemesanan"
@@ -84,8 +85,6 @@ Route::post('/logout', [LoginController::class, 'logout']);
 Route::get('/register', [RegisterController::class, 'index']);
 Route::post('/register', [RegisterController::class, 'store']);
 
-Route::post('/register', [PemesananController::class, 'store']);
-
-Route::get('/dashboard', [DashboardController::class, 'index'])->middleware('auth');
+// Route::post('/register', [PemesananController::class, 'store']);
 
 

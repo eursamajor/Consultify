@@ -31,9 +31,11 @@ class PemesananController extends Controller
     {
         $validatedData = $request->validate([
             'jenis_konsultasi' => 'required|max:255',
-            'konselor' => ['required', 'min:5', 'max:15', 'unique:users'],
-            '' => 'required|email:dns|unique:users',
-            'password' => ['required', 'min:8', 'max:15']
+            'konselor' => 'required',
+            'jam' => 'required',
+            'nama' => 'required|max:255',
+            'nomorhp' => 'required',
+            'message' => 'max:255'
         ]);
     }
 

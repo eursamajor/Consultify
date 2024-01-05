@@ -10,7 +10,6 @@
 </head>
 
 <body>
-  <!--  Body Wrapper -->
   @if(session()->has('success'))
     <div class="alert alert-success alert-dismissible fade show" role="alert">
       {{ session('success') }}
@@ -62,7 +61,6 @@
                         Remember this device
                       </label>
                     </div>
-                    <!-- <a class="text-primary fw-bold" href="./index.html">Forgot Password?</a> -->
                   </div>
                   <button class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2" type="submit">Sign in</button>
                 </form>
