@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\DashboardController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,14 +16,14 @@ use App\Http\Controllers\RegisterController;
 */
 
 
-Route::get('/home.php', function () {
+Route::get('/', function () {
     return view('/index', [
         "title" => "home",
         "name" => "atha"
     ]);
 });
 
-Route::get('/', function () {
+Route::get('/login.php', function () {
     return view('/login/login');
 });
 
@@ -74,11 +75,12 @@ Route::get('/artikel-1.php', function () {
     return view('/header/artikel-1');
 });
 
-Route::get('/login', [LoginController::class, 'index']);
+Route::get('/login', [LoginController::class, 'index'])->middleware('guest');
 Route::post('/login', [LoginController::class, 'authenticate']);
 
 Route::get('/register', [RegisterController::class, 'index']);
 Route::post('/register', [RegisterController::class, 'store']);
 
+Route::get('/dashboard', [DashboardController::class, 'index']);
 
 
