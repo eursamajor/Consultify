@@ -81,7 +81,7 @@
                           <th class="product-price">Harga</th>
                           <th class="product-quantity">Jumlah</th>
                           <th class="product-total">Total</th>
-                          <th class="product-remove">Remove</th>
+                          <th class="product-remove">Hapus</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -142,7 +142,7 @@
                 <div class="col-md-6">
                   <div class="row mb-5">
                     <div class="col-md-6 mb-3 mb-md-0">
-                      <button class="btn btn-black btn-sm btn-block">Update Cart</button>
+                      <button class="btn btn-black btn-sm btn-block">Update Keranjang</button>
                     </div>
                     <div class="col-md-6">
                       <button class="btn btn-outline-black btn-sm btn-block">Melanjutkan Konsultasi</button>
@@ -157,7 +157,7 @@
                       <input type="text" class="form-control py-3" id="coupon" placeholder="Coupon Code">
                     </div>
                     <div class="col-md-4">
-                      <button class="btn btn-black">Apply Kupon</button>
+                      <button class="btn btn-black">Submit Kupon</button>
                     </div>
                   </div>
                 </div>
@@ -233,7 +233,7 @@
 				<div class="row g-5 mb-5">
 					<div class="col-lg-4">
 						<div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">Consultify<span>.</span></a></div>
-						<p class="mb-4">Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant</p>
+						<p class="mb-4">Tempat konsultasi terbaik.</p>
 
 						<ul class="list-unstyled custom-social">
 							<li><a href="#"><span class="fa fa-brands fa-facebook-f"></span></a></li>
@@ -264,8 +264,8 @@
 
 							<div class="col-6 col-sm-6 col-md-3">
 								<ul class="list-unstyled">
-									<li><a href="#">Jobs</a></li>
-									<li><a href="#">Our team</a></li>
+									<li><a href="#">Kerja Kami</a></li>
+									<li><a href="#">Tim kami</a></li>
 									<li><a href="#">Leadership</a></li>
 									<li><a href="#">Privacy Policy</a></li>
 								</ul>
@@ -273,9 +273,9 @@
 
 							<div class="col-6 col-sm-6 col-md-3">
 								<ul class="list-unstyled">
-									<li><a href="#">Nordic Chair</a></li>
-									<li><a href="#">Kruzo Aero</a></li>
-									<li><a href="#">Ergonomic Chair</a></li>
+									<li><a href="#">Consultify</a></li>
+									<li><a href="#">Consultify</a></li>
+									<li><a href="#">Consultify</a></li>
 								</ul>
 							</div>
 						</div>
