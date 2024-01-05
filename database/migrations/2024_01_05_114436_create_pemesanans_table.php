@@ -13,6 +13,12 @@ return new class extends Migration
     {
         Schema::create('pemesanans', function (Blueprint $table) {
             $table->id();
+            $table->string('jenis_konsultasi');
+            $table->string('konselor');
+            $table->timestamp('tanggal');
+            $table->time('jam');
+            $table->string('nomorhp');
+            $table->text('pesan');
             $table->timestamps();
         });
     }
