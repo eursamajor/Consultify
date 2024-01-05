@@ -30,9 +30,9 @@ class PemesananController extends Controller
     public function store(StorePemesananRequest $request)
     {
         $validatedData = $request->validate([
-            'name' => 'required|max:255',
-            'username' => ['required', 'min:5', 'max:15', 'unique:users'],
-            'email' => 'required|email:dns|unique:users',
+            'jenis_konsultasi' => 'required|max:255',
+            'konselor' => ['required', 'min:5', 'max:15', 'unique:users'],
+            '' => 'required|email:dns|unique:users',
             'password' => ['required', 'min:8', 'max:15']
         ]);
     }
