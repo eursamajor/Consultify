@@ -28,19 +28,39 @@
                   @csrf
                   <div class="mb-4">
                       <label for="name" class="form-label">Name</label>
-                      <input type="text" name="name" class="form-control is-invalid" id="name" placeholder="Raditha Ariyani" required>
-                    </div>
+                      <input type="text" name="name" class="form-control @error('name') is-invalid @enderror" id="name" placeholder="Name" value="{{ old('name') }}">
+                      @error('name')
+                        <div class="invalid-feedback">
+                          {{ $message }}
+                        </div>
+                      @enderror
+                  </div>
                   <div class="mb-3">
                     <label for="username" class="form-label">Username</label>
-                    <input type="username" name="username" class="form-control" id="username" placeholder="eursamajor">
+                    <input type="username" name="username" class="form-control @error('username') is-invalid @enderror" id="username" placeholder="eursamajor" value="{{ old('username') }}">
+                    @error('username')
+                        <div class="invalid-feedback">
+                          {{ $message }}
+                        </div>
+                      @enderror
                   </div>
-                  <div class="mb-4">
-                      <label for="email" class="form-label">Email</label>
-                      <input type="email" email="email" class="form-control" id="email" placeholder="ursamajor@gmail.com" required>
+                  <div class="mb-3">
+                      <label for="email" class="form-label">Email Address</label>
+                      <input type="email" name="email" class="form-control @error('email') is-invalid @enderror" id="email" placeholder="ursamajor@gmail.com" value="{{ old('email') }}">
+                      @error('email')
+                        <div class="invalid-feedback">
+                          {{ $message }}
+                        </div>
+                      @enderror
                     </div>
                   <div class="mb-4">
-                    <label for="password" class="form-label">Password</label>
-                    <input type="password" name="password" class="form-control" id="password" required>
+                    <label for="password" class="form-label ">Password</label>
+                    <input type="password" name="password" class="form-control @error('password') is-invalid @enderror" id="password">
+                    @error('password')
+                        <div class="invalid-feedback">
+                          {{ $message }}
+                        </div>
+                    @enderror
                   </div>
                   <button class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2" type="submit">Sign up</button>
                 </form>
