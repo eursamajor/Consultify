@@ -1,4 +1,3 @@
-<!-- resources/views/consultation/bookingconsult.blade.php -->
 <!DOCTYPE html>
 <html lang="zxx">
 <head>

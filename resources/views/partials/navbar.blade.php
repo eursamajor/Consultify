@@ -34,7 +34,11 @@
 				<li class="nav-item"><a class="nav-link  {{ ($title === "konselor") ? 'active' : '' }}" href="konselor.php">Konselor</a></li>
                 <li class="nav-item"><a class="nav-link  {{ ($title === "pemesanan") ? 'active' : '' }}" href="bookingconsult.php">Pemesanan</a></li>
 			   <li class="nav-item"><a class="nav-link  {{ ($title === "riwayat") ? 'active' : '' }}" href="riwayat.php">Riwayat</a></li>
-			   <li class="nav-item"><a class="nav-link  {{ ($title === "profile") ? 'active' : '' }}" href="profile.php">Profile</a></li>
+			   @auth
+				<li class="nav-item"><a class="nav-link" href="/">Logout</a></li>
+			   @else
+			   	<li class="nav-item"><a class="nav-link" href="/login">Login</a></li>
+			   @endauth
 			</ul>
 		  </div>
 		</div>
