@@ -57,7 +57,9 @@ Route::get('/register', function () {
 });
 
 Route::get('/dashboard', function () {
-    return view('/homepage/dashboard');
+    return view('/homepage/dashboard', [
+        "title" => "home"
+    ]);
 });
 
 Route::get('/bookingconsult.php', function () {

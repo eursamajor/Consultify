@@ -29,9 +29,8 @@
 	  
 		  <div class="collapse navbar-collapse" id="navbarmain">
 			<ul class="navbar-nav ml-auto">
-			  <li class="nav-item active"><a class="nav-link {{ ($title === "home") ? 'active' : '' }}" href="/">Home</a></li>
+			  <li class="nav-item active"><a class="nav-link {{ ($title === "home") ? 'active' : '' }}" href="/dashboard">Home</a></li>
 			    <li class="nav-item"><a class="nav-link  {{ ($title === "artikel") ? 'active' : '' }}" href="artikel.php">Artikel</a></li>
-				<li class="nav-item"><a class="nav-link  {{ ($title === "konselor") ? 'active' : '' }}" href="konselor.php">Konselor</a></li>
                 <li class="nav-item"><a class="nav-link  {{ ($title === "pemesanan") ? 'active' : '' }}" href="bookingconsult.php">Pemesanan</a></li>
 			   <li class="nav-item"><a class="nav-link  {{ ($title === "riwayat") ? 'active' : '' }}" href="riwayat.php">Riwayat</a></li>
 			   @auth
