@@ -35,7 +35,12 @@
                 <li class="nav-item"><a class="nav-link  {{ ($title === "pemesanan") ? 'active' : '' }}" href="bookingconsult.php">Pemesanan</a></li>
 			   <li class="nav-item"><a class="nav-link  {{ ($title === "riwayat") ? 'active' : '' }}" href="riwayat.php">Riwayat</a></li>
 			   @auth
-				<li class="nav-item"><a class="nav-link" href="/">Logout</a></li>
+				<li>
+					<form action="/logout" method="post">
+						@csrf
+						<button type="submit">Logout</button>
+					</form>
+				</li>
 			   @else
 			   	<li class="nav-item"><a class="nav-link" href="/login">Login</a></li>
 			   @endauth
