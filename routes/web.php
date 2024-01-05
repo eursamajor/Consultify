@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\RegisterController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,9 +22,9 @@ Route::get('/home.php', function () {
     ]);
 });
 
-// Route::get('/', function () {
-//     return view('/login/login');
-// });
+Route::get('/', function () {
+    return view('/login/login');
+});
 
 // Route::get('/home.php', function () {
 //     return view('/homepage/home');
@@ -47,11 +48,11 @@ Route::get('/riwayat.php', function () {
     ]);
 });
 
-// Route::get('/login.php', function () {
-//     return view('/login/login');
-// });
+Route::get('/login.php', function () {
+    return view('/login/login');
+});
 
-Route::get('/register.php', function () {
+Route::get('/register', function () {
     return view('/login/register');
 });
 
@@ -73,7 +74,11 @@ Route::get('/artikel-1.php', function () {
     return view('/header/artikel-1');
 });
 
-Route::get('/', [LoginController::class, 'index']);
+Route::get('/login', [LoginController::class, 'index']);
+Route::get('/login', [LoginController::class, 'authenticate']);
+
+Route::get('/register', [RegisterController::class, 'index']);
+Route::post('/register', [RegisterController::class, 'store']);
 
 
 

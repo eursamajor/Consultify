@@ -11,6 +11,22 @@
 
 <body>
   <!--  Body Wrapper -->
+  @if(session()->has('success'))
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+      {{ session('success') }}
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+      </button>
+    </div>
+  @endif
+
+  @if(session()->has('loginError'))
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+      {{ session('loginError') }}
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+      </button>
+    </div>
+  @endif
+
   <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
     data-sidebar-position="fixed" data-header-position="fixed">
     <div
@@ -24,30 +40,36 @@
                   <img src="../assets3/images/logos/logo.png" width="180" alt="">
                 </a>
                 <p class="text-center">Consultify</p>
-                <form>
+                <form action="/login" method="post">
+                  @csrf
                   <div class="mb-3">
                     <label for="username" class="form-label">Username</label>
-                    <input type="inputusername" class="form-control" id="inputusername" aria-describedby="emailHelp">
+                    <input type="username" name="username" class="form-control @error('username') is-invalid @enderror" id="username" placeholder="eursamajor" autofocus required value="{{ old('username') }}">
+                    @error('username')
+                      <div class="invalid-feedback">
+                        {{ $message }}
+                      </div>
+                    @enderror
                   </div>
                   <div class="mb-4">
-                    <label for="" class="form-label">Password</label>
-                    <input type="inputpassword" class="form-control" id="inputpassword">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" name="password" class="form-control" id="password" required>
                   </div>
                   <div class="d-flex align-items-center justify-content-between mb-4">
                     <div class="form-check">
                       <input class="form-check-input primary" type="checkbox" value="" id="flexCheckChecked" checked>
                       <label class="form-check-label text-dark" for="flexCheckChecked">
-                        Remember this Device
+                        Remember this device
                       </label>
                     </div>
-                    <a class="text-primary fw-bold" href="./index.html">Forgot Password?</a>
+                    <!-- <a class="text-primary fw-bold" href="./index.html">Forgot Password?</a> -->
                   </div>
-                  <a href="home.php" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2">Sign In</a>
-                  <div class="d-flex align-items-center justify-content-center">
-                    <p class="fs-4 mb-0 fw-bold">New to Consultify?</p>
-                    <a class="text-primary fw-bold ms-2" href="register.php">Create an account</a>
-                  </div>
+                  <button class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2" type="submit">Sign in</button>
                 </form>
+                <div class="d-flex align-items-center justify-content-center">
+                    <p class="fs-4 mb-0 fw-bold">New to Consultify?</p>
+                    <a class="text-primary fw-bold ms-2" href="/register">Register</a>
+                </div>
               </div>
             </div>
           </div>
