@@ -48,7 +48,7 @@ Route::get('/riwayat.php', function () {
     ]);
 });
 
-Route::get('/login.php', function () {
+Route::get('/login', function () {
     return view('/login/login');
 });
 

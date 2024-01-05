@@ -23,6 +23,16 @@
                 <a href="./index.html" class="text-nowrap logo-img text-center d-block py-3 w-100">
                   <img src="../assets3/images/logos/logo.png" width="180" alt="">
                 </a>
+                
+                @if(session()->has('success'))
+                <div class="alert alert-success alert-dimsissible fade show" role="alert">
+                  {{ session('success') }}
+                  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                  </button>
+                </div>
+                @endif
+
+
                 <p class="text-center">Registrasi</p>
                 <form action="/register" method="post">
                   @csrf
